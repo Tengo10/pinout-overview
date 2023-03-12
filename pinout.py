@@ -82,7 +82,7 @@ class Package:
         return dw_footprint
 
     def _generate_label(self, name, border_color, background_color, text_color, alt=False):
-        dw_label = dw.Group(id=f"Label{name}")
+        dw_label = dw.Group(id=f"Label{name}-{'alt' if alt else 'std'}")
         skew = self.label_height/4
 
         border_color = self._check_color(border_color)
