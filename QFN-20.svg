@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2000" height="1000" viewBox="-1000.0 -500.0 2000 1000" displayInline="False">
+<defs>
+<g id="Pins">
+<rect x="0" y="0" width="20" height="30" stroke="black" stroke-width="2" fill="none" />
+<rect x="40" y="0" width="20" height="30" stroke="black" stroke-width="2" fill="none" />
+<rect x="80" y="0" width="20" height="30" stroke="black" stroke-width="2" fill="none" />
+<rect x="120" y="0" width="20" height="30" stroke="black" stroke-width="2" fill="none" />
+<rect x="160" y="0" width="20" height="30" stroke="black" stroke-width="2" fill="none" />
+</g>
+<g id="QFN-20">
+<use xlink:href="#Pins" x="50.0" y="0" transform="rotate(0, 140.0, 140.0)" />
+<use xlink:href="#Pins" x="50.0" y="0" transform="rotate(90, 140.0, 140.0)" />
+<use xlink:href="#Pins" x="50.0" y="0" transform="rotate(180, 140.0, 140.0)" />
+<use xlink:href="#Pins" x="50.0" y="0" transform="rotate(270, 140.0, 140.0)" />
+<circle cx="55.0" cy="55.0" r="5.0" stroke="black" stroke-width="2" fill="none" />
+<rect x="0" y="0" width="280.0" height="280.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M80,50.0 H230.0 V230.0 H50.0 V80 Z" stroke-width="2" stroke="black" fill="none" />
+</g>
+<g id="LabelPD7-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PD7</text>
+</g>
+<g id="Label-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="white" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold"></text>
+</g>
+<g id="LabelNRST-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#9600CC" stroke-width="2" fill="#E399FF" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">NRST</text>
+</g>
+<g id="LabelCH4-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#69CC00" stroke-width="2" fill="#DAFFB3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">CH4</text>
+</g>
+<g id="LabelCK-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CC0092" stroke-width="2" fill="#FFA3E5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CK</text>
+</g>
+<g id="LabelOPP1-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CCAA00" stroke-width="2" fill="#FFE97C" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">OPP1</text>
+</g>
+<g id="PIN-0">
+<use xlink:href="#LabelPD7-std" x="-80" y="0" />
+<use xlink:href="#Label-std" x="-170" y="0" />
+<use xlink:href="#LabelNRST-std" x="-260" y="0" />
+<use xlink:href="#LabelCH4-std" x="-350" y="0" />
+<use xlink:href="#LabelCK-alt" x="-440" y="0" />
+<use xlink:href="#LabelOPP1-std" x="-530" y="0" />
+</g>
+<g id="LabelPA1-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PA1</text>
+</g>
+<g id="LabelA1-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#0060CD" stroke-width="2" fill="#A2CEFF" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">A1</text>
+</g>
+<g id="LabelOSCI-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#9600CC" stroke-width="2" fill="#E399FF" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">OSCI</text>
+</g>
+<g id="LabelCH2-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">CH2</text>
+</g>
+<g id="Label-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="white" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold"></text>
+</g>
+<g id="LabelOPN0-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CCAA00" stroke-width="2" fill="#FFE97C" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">OPN0</text>
+</g>
+<g id="PIN-1">
+<use xlink:href="#LabelPA1-std" x="-80" y="0" />
+<use xlink:href="#LabelA1-std" x="-170" y="0" />
+<use xlink:href="#LabelOSCI-std" x="-260" y="0" />
+<use xlink:href="#LabelCH2-std" x="-350" y="0" />
+<use xlink:href="#Label-std" x="-440" y="0" />
+<use xlink:href="#LabelOPN0-std" x="-530" y="0" />
+</g>
+<g id="LabelPA2-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PA2</text>
+</g>
+<g id="LabelA0-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#0060CD" stroke-width="2" fill="#A2CEFF" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">A0</text>
+</g>
+<g id="LabelOSCO-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#9600CC" stroke-width="2" fill="#E399FF" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">OSCO</text>
+</g>
+<g id="LabelCH2N-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">CH2N</text>
+</g>
+<g id="Label-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="white" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold"></text>
+</g>
+<g id="LabelOPP0-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CCAA00" stroke-width="2" fill="#FFE97C" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">OPP0</text>
+</g>
+<g id="LabelETR2-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#0060CD" stroke-width="2" fill="#A2CEFF" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">ETR2</text>
+</g>
+<g id="PIN-2">
+<use xlink:href="#LabelPA2-std" x="-80" y="0" />
+<use xlink:href="#LabelA0-std" x="-170" y="0" />
+<use xlink:href="#LabelOSCO-std" x="-260" y="0" />
+<use xlink:href="#LabelCH2N-std" x="-350" y="0" />
+<use xlink:href="#Label-std" x="-440" y="0" />
+<use xlink:href="#LabelOPP0-std" x="-530" y="0" />
+<use xlink:href="#LabelETR2-std" x="-620" y="0" />
+</g>
+<g id="LabelVSS-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="black" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">VSS</text>
+</g>
+<g id="PIN-3">
+<use xlink:href="#LabelVSS-std" x="-80" y="0" />
+</g>
+<g id="LabelPD0-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PD0</text>
+</g>
+<g id="Label-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="white" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold"></text>
+</g>
+<g id="Label-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="white" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold"></text>
+</g>
+<g id="LabelCH1N-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">CH1N</text>
+</g>
+<g id="LabelTX-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CC0092" stroke-width="2" fill="#FFA3E5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">TX</text>
+</g>
+<g id="LabelOPN1-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CCAA00" stroke-width="2" fill="#FFE97C" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">OPN1</text>
+</g>
+<g id="LabelSDA-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00B8CC" stroke-width="2" fill="#88EBF7" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">SDA</text>
+</g>
+<g id="PIN-4">
+<use xlink:href="#LabelPD0-std" x="-80" y="0" />
+<use xlink:href="#Label-std" x="-170" y="0" />
+<use xlink:href="#Label-std" x="-260" y="0" />
+<use xlink:href="#LabelCH1N-std" x="-350" y="0" />
+<use xlink:href="#LabelTX-alt" x="-440" y="0" />
+<use xlink:href="#LabelOPN1-std" x="-530" y="0" />
+<use xlink:href="#LabelSDA-alt" x="-620" y="0" />
+</g>
+<g id="LabelVDD-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="red" stroke-width="2" fill="red" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">VDD</text>
+</g>
+<g id="PIN-5">
+<use xlink:href="#LabelVDD-std" x="-80" y="0" />
+</g>
+<g id="LabelPC0-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PC0</text>
+</g>
+<g id="LabelCH3-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#69CC00" stroke-width="2" fill="#DAFFB3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">CH3</text>
+</g>
+<g id="LabelCH3-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CH3</text>
+</g>
+<g id="LabelNSS-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CC5F" stroke-width="2" fill="#8CEEBA" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">NSS</text>
+</g>
+<g id="LabelTX-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CC0092" stroke-width="2" fill="#FFA3E5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">TX</text>
+</g>
+<g id="PIN-6">
+<use xlink:href="#LabelPC0-std" x="-80" y="0" />
+<use xlink:href="#LabelCH3-std" x="-170" y="0" />
+<use xlink:href="#LabelCH3-alt" x="-260" y="0" />
+<use xlink:href="#LabelNSS-alt" x="-350" y="0" />
+<use xlink:href="#LabelTX-alt" x="-440" y="0" />
+</g>
+<g id="LabelPC1-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PC1</text>
+</g>
+<g id="LabelSDA-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00B8CC" stroke-width="2" fill="#88EBF7" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">SDA</text>
+</g>
+<g id="LabelBKIN-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">BKIN</text>
+</g>
+<g id="LabelNSS-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CC5F" stroke-width="2" fill="#8CEEBA" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">NSS</text>
+</g>
+<g id="LabelRX-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CC0092" stroke-width="2" fill="#FFA3E5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">RX</text>
+</g>
+<g id="LabelCH4-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#69CC00" stroke-width="2" fill="#DAFFB3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CH4</text>
+</g>
+<g id="LabelCH1-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#69CC00" stroke-width="2" fill="#DAFFB3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CH1</text>
+</g>
+<g id="LabelETR-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#69CC00" stroke-width="2" fill="#DAFFB3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">ETR</text>
+</g>
+<g id="PIN-7">
+<use xlink:href="#LabelPC1-std" x="-80" y="0" />
+<use xlink:href="#LabelSDA-std" x="-170" y="0" />
+<use xlink:href="#LabelBKIN-alt" x="-260" y="0" />
+<use xlink:href="#LabelNSS-std" x="-350" y="0" />
+<use xlink:href="#LabelRX-alt" x="-440" y="0" />
+<use xlink:href="#LabelCH4-alt" x="-530" y="0" />
+<use xlink:href="#LabelCH1-alt" x="-620" y="0" />
+<use xlink:href="#LabelETR-alt" x="-710" y="0" />
+</g>
+<g id="LabelPC2-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PC2</text>
+</g>
+<g id="LabelSCL-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00B8CC" stroke-width="2" fill="#88EBF7" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">SCL</text>
+</g>
+<g id="LabelBKIN-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">BKIN</text>
+</g>
+<g id="LabelETR-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#0060CD" stroke-width="2" fill="#A2CEFF" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">ETR</text>
+</g>
+<g id="LabelRTS-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CC0092" stroke-width="2" fill="#FFA3E5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-weight="bold">RTS</text>
+</g>
+<g id="LabelCH2-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#69CC00" stroke-width="2" fill="#DAFFB3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CH2</text>
+</g>
+<g id="LabelETR-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">ETR</text>
+</g>
+<g id="PIN-8">
+<use xlink:href="#LabelPC2-std" x="0" y="0" />
+<use xlink:href="#LabelSCL-std" x="90" y="0" />
+<use xlink:href="#LabelBKIN-std" x="180" y="0" />
+<use xlink:href="#LabelETR-alt" x="270" y="0" />
+<use xlink:href="#LabelRTS-std" x="360" y="0" />
+<use xlink:href="#LabelCH2-alt" x="450" y="0" />
+<use xlink:href="#LabelETR-alt" x="540" y="0" />
+</g>
+<g id="LabelPC3-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="black" stroke-width="2" fill="grey" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold">PC3</text>
+</g>
+<g id="Label-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="white" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold"></text>
+</g>
+<g id="LabelCH3-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CH3</text>
+</g>
+<g id="Label-std">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="white" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white" font-weight="bold"></text>
+</g>
+<g id="LabelCTS-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#CC0092" stroke-width="2" fill="#FFA3E5" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CTS</text>
+</g>
+<g id="LabelCH1N-alt">
+<path d="M3.75,-15.0 H83.75 L76.25,15.0 H-3.75 Z" stroke="#00CCA0" stroke-width="2" fill="#99FFE9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="40.0" y="2.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="black" font-style="italic">CH1N</text>
+</g>
+<g id="PIN-9">
+<use xlink:href="#LabelPC3-std" x="0" y="0" />
+<use xlink:href="#Label-std" x="90" y="0" />
+<use xlink:href="#LabelCH3-alt" x="180" y="0" />
+<use xlink:href="#Label-std" x="270" y="0" />
+<use xlink:href="#LabelCTS-alt" x="360" y="0" />
+<use xlink:href="#LabelCH1N-alt" x="450" y="0" />
+</g>
+<g id="Labels">
+<use xlink:href="#PIN-0" x="-30" y="60" />
+<path d="M0,60 V60 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-1" x="-30" y="100" />
+<path d="M0,100 V100 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-2" x="-30" y="140" />
+<path d="M0,140 V140 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-3" x="-30" y="180" />
+<path d="M0,180 V180 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-4" x="-30" y="220" />
+<path d="M0,220 V220 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-5" x="-30" y="320" />
+<path d="M60,280.0 V320 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-6" x="-30" y="360" />
+<path d="M100,280.0 V360 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-7" x="-30" y="400" />
+<path d="M140,280.0 V400 H-30" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-8" x="310.0" y="400" />
+<path d="M180,280.0 V400 H310.0" stroke="black" stroke-width="2" fill="none" />
+<use xlink:href="#PIN-9" x="310.0" y="360" />
+<path d="M220,280.0 V360 H310.0" stroke="black" stroke-width="2" fill="none" />
+</g>
+</defs>
+<use xlink:href="#QFN-20" x="-140.0" y="-140.0" />
+<use xlink:href="#Labels" x="-140.0" y="-140.0" />
+<rect x="-1000" y="-500" width="2000" height="1000" stroke="black" stroke-width="2" fill="none" />
+</svg>
