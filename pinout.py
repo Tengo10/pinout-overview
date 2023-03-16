@@ -19,6 +19,12 @@ class Package:
         self.label_height = 0
 
         self.package_width = 0
+        self.package_height = 0
+        self.legend_width = 0
+        self.legend_height = 0
+
+        self.canvas_height = 0
+        self.canvas_width = 0
 
         self.types["spacer"] = {
             "borderColor": "white",
@@ -26,7 +32,7 @@ class Package:
             "textColor": "white"
         }
 
-        self.dwPinout = dw.Drawing(2000, 1000, origin='center', displayInline=False)
+        # self.dwPinout = dw.Drawing(2000, 1000, origin='center', displayInline=False)
 
     def set_footprint(self, pin_number, pin_spacing, pin_length, pin_width, corner_spacing):
         self.pin_number = pin_number
@@ -78,7 +84,37 @@ class Package:
 
 
         elif self.footprint == "SOP":
-            pass
+            self.package_height = (self.pin_number/2+1) * self.pin_spacing
+            self.package_width = 200
+            print(self.package_height)
+            outside = dw.Rectangle(self.pin_length,0, self.package_width, self.package_height, 
+                                   stroke="black", stroke_width=2, fill="none")
+            inside = dw.Rectangle(self.pin_length+self.package_width*0.025, self.package_width*0.025, 
+                                  self.package_width-self.package_width*0.025*2, self.package_height-self.package_width*0.025*2, 
+                                  stroke="black", stroke_width=2, fill="none")
+            
+            dw_pin = dw.Path(stroke="black", stroke_width=2, fill="none")
+            dw_pin.M(0,0)
+            dw_pin.H(self.pin_length)
+            dw_pin.V(self.pin_width)
+            dw_pin.H(0)
+            dw_pin.V(0)
+            dw_pin.M(self.pin_length/3, 0)
+            dw_pin.V(self.pin_width)
+            dw_pin.M(self.pin_length*2/3, 0)
+            dw_pin.V(self.pin_width)
+
+            dw_pins = dw.Group(id="Pins")
+
+            for p in range(int(self.pin_number/2)):
+                dw_pins.append(dw.Use(dw_pin, 0, self.pin_spacing*(p+1)))
+                dw_pins.append(dw.Use(dw_pin, self.pin_length+self.package_width, self.pin_spacing*(p+1)))
+
+            dw_footprint.append(outside)
+            dw_footprint.append(inside)
+            dw_footprint.append(dw_pins)
+
+
         return dw_footprint
 
     def _generate_label(self, name, border_color, background_color, text_color, alt=False):
@@ -183,23 +219,45 @@ class Package:
                          [-self.label_start, -self.corner_spacing - i3*self.pin_spacing]]
                 label_pos_index.append(index)
         elif self.footprint == "SOP":
-            pass
-
+            for i in range(int(self.pin_number/2)):
+                index = [-1, 
+                         [0, (i+1)*self.pin_spacing+self.pin_width/2],
+                         [-self.label_start, (i+1)*self.pin_spacing+self.pin_width/2]]
+                label_pos_index.append(index)
+            for i in range(int(self.pin_number/2)):
+                i2 = self.pin_number/2 - i - 1
+                index = [1, 
+                         [self.package_width+2*self.pin_length, self.corner_spacing + i2*self.pin_spacing-self.pin_width/2],
+                         [self.package_width + self.label_start+2*self.pin_length, self.corner_spacing + i2*self.pin_spacing-self.pin_width/2]]
+                label_pos_index.append(index)
+        
         for i, pin in enumerate(self.pins):
             dw_pin = self._generate_pin_label(str(i), pin, label_pos_index[i][0])
             dw_labels.append(dw.Use(dw_pin, label_pos_index[i][2][0], label_pos_index[i][2][1]))
             dw_labels.append(self._generate_label_line(label_pos_index[i][1], label_pos_index[i][2]))
 
-        self.dwPinout.append(dw.Use(dw_footprint, -self.package_width/2, -self.package_width/2))
-        self.dwPinout.append(dw.Use(dw_labels, -self.package_width/2, -self.package_width/2))
+        self._calculate_size()
+        self.dwPinout = dw.Drawing(self.canvas_width, self.canvas_height, origin='center', displayInline=False)
+        print(self.canvas_width, "  ", self.canvas_height)
+        self.dwPinout.append(dw.Use(dw_footprint, -self.package_width/2, -self.package_height/2))
+        self.dwPinout.append(dw.Use(dw_labels, -self.package_width/2, -self.package_height/2))
 
     def _check_color(self, color):
         if isinstance(color, tuple) and len(color) == 3:
             return f"rgb({color[0]}, {color[1]}, {color[2]})"
         return color
 
+    def _calculate_size(self):
+        max_labels = max(map(len, self.pins))
+        self.canvas_width = (self.package_width/2 + self.label_start + (self.label_width + self.label_spacing) * max_labels)*2 + 2
+        if self.footprint == "QFN":
+            self.package_height = self.package_width
+            self.canvas_height = self.package_width + self.pin_number/2+1 * self.pin_spacing + 4*self.corner_spacing + 2
+        elif self.footprint == "SOP":
+            self.canvas_height = self.pin_spacing * (self.pin_number/2+1) + 2
+        
     def save(self):
         self._generate_pinout()
-        self.dwPinout.append(dw.Rectangle(-1000, -500, 2000, 1000,
+        self.dwPinout.append(dw.Rectangle(-self.canvas_width/2, -self.canvas_height/2, self.canvas_width, self.canvas_height,
                                           stroke="black", stroke_width=2, fill="none"))
         self.dwPinout.save_svg(self.name + ".svg")
