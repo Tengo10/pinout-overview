@@ -194,8 +194,8 @@ types = {
     },
 }
 
-pinout = gen.Package("QFN-20", "QFN")
-pinout.set_footprint(20, 40, 30, 20, 60)
+pinout = gen.Package("QFN-20", "SOP")
+pinout.set_footprint(20, 40, 40, 20, 60)
 pinout.set_label(80, 10, 30)
 pinout.add_types(types)
 pinout.add_pins(pins)
