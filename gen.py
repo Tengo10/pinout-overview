@@ -80,8 +80,8 @@ pins = [
      ],
     [{"type": "pin", "name": "PC6", "alt": False},
      {"type": "spi", "name": "MOSI", "alt": False},
-     {"type": "tim1", "name": "T1CH1CH3N", "alt": True},
-     {"type": "spare", "name": "", "alt": False},
+     {"type": "tim1", "name": "T1C1C3N", "alt": True},
+     {"type": "spacer", "name": "", "alt": False},
      {"type": "i2c", "name": "SDA", "alt": True},
      {"type": "uart", "name": "UCTS", "alt": True},
      ],
@@ -89,21 +89,21 @@ pins = [
      {"type": "spi", "name": "MISO", "alt": False},
      {"type": "tim1", "name": "T1CH2", "alt": True},
      {"type": "tim2", "name": "T2CH2", "alt": True},
-     {"type": "spare", "name": "", "alt": False},
+     {"type": "spacer", "name": "", "alt": False},
      {"type": "uart", "name": "URTS", "alt": True},
      ],
     [{"type": "pin", "name": "PD1", "alt": False},
      {"type": "adc", "name": "AETR2", "alt": False},
      {"type": "tim1", "name": "T1CH3N", "alt": False},
-     {"type": "system", "name": "SWIO", "alt": False},
-     {"type": "spare", "name": "SCL", "alt": True},
+     {"type": "sys", "name": "SWIO", "alt": False},
+     {"type": "spacer", "name": "SCL", "alt": True},
      {"type": "uart", "name": "URX", "alt": True},
      ],
     [{"type": "pin", "name": "PD2", "alt": False},
      {"type": "adc", "name": "A3", "alt": False},
      {"type": "tim1", "name": "T1CH1", "alt": False},
      {"type": "tim2", "name": "T2CH3", "alt": True},
-     {"type": "spare", "name": "", "alt": True},
+     {"type": "spacer", "name": "", "alt": True},
      {"type": "tim1", "name": "T1CH2N", "alt": True},
      ],
     [{"type": "pin", "name": "PD3", "alt": False},
@@ -115,9 +115,9 @@ pins = [
      ],
     [{"type": "pin", "name": "PD4", "alt": False},
      {"type": "adc", "name": "A7", "alt": False},
-     {"type": "tim2", "name": "T2CH1ETR", "alt": False},
+     {"type": "tim2", "name": "T2C1ETR", "alt": False},
      {"type": "uart", "name": "UCK", "alt": False},
-     {"type": "tim1", "name": "T1CH4ETR", "alt": True},
+     {"type": "tim1", "name": "T1C4ETR", "alt": True},
      {"type": "opa", "name": "OPO", "alt": True},
      ],
     [{"type": "pin", "name": "PD5", "alt": False},
@@ -132,71 +132,82 @@ pins = [
      {"type": "uart", "name": "URX", "alt": False},
      {"type": "uart", "name": "UTX", "alt": True},
      ],
-    [{"type": "vss", "name": "VSS", "alt": False},
-    ],
+#    [{"type": "vss", "name": "VSS", "alt": False},
+#    ],
 ]
 
 types = {
-    "pin": {
-        "borderColor": "black",
-        "backgroundColor": "grey",
-        "textColor": "white"
+    "uart": {
+        "borderColor": "#CC0092",
+        "backgroundColor": "#FFA3E5",
+        "textColor": "black",
+        "description": "UART"
     },
     "i2c": {
         "borderColor": "#00B8CC",
         "backgroundColor": "#88EBF7",
-        "textColor": "black"
-    },
-    "tim1": {
-        "borderColor": "#00CCA0",
-        "backgroundColor": "#99FFE9",
-        "textColor": "black"
-    },
-    "tim2": {
-        "borderColor": "#69CC00",
-        "backgroundColor": "#DAFFB3",
-        "textColor": "black"
-    },
-    "adc": {
-        "borderColor": "#0060CD",
-        "backgroundColor": "#A2CEFF",
-        "textColor": "black"
-    },
-    "sys": {
-        "borderColor": "#9600CC",
-        "backgroundColor": "#E399FF",
-        "textColor": "black"
-    },
-    "uart": {
-        "borderColor": "#CC0092",
-        "backgroundColor": "#FFA3E5",
-        "textColor": "black"
+        "textColor": "black",
+        "description": "I2C"
     },
     "spi": {
         "borderColor": "#00CC5F",
         "backgroundColor": "#8CEEBA",
-        "textColor": "black"
+        "textColor": "black",
+        "description": "SPI"
+    },
+    "adc": {
+        "borderColor": "#0060CD",
+        "backgroundColor": "#A2CEFF",
+        "textColor": "black",
+        "description": "ADC"
+    },
+    "sys": {
+        "borderColor": "#9600CC",
+        "backgroundColor": "#E399FF",
+        "textColor": "black",
+        "description": "SYSTEM"
+    },
+    "tim1": {
+        "borderColor": "#00CCA0",
+        "backgroundColor": "#99FFE9",
+        "textColor": "black",
+        "description": "TIMER 1"
+    },
+    "tim2": {
+        "borderColor": "#69CC00",
+        "backgroundColor": "#DAFFB3",
+        "textColor": "black",
+        "description": "TIMER 2"
     },
     "opa": {
         "borderColor": "#CCAA00",
         "backgroundColor": "#FFE97C",
-        "textColor": "black"
+        "textColor": "black",
+        "description": "OPA"
+    },
+    "pin": {
+        "borderColor": "black",
+        "backgroundColor": "grey",
+        "textColor": "white",
+        "description": "PIN Name"
     },
     "vss": {
         "borderColor": "black",
         "backgroundColor": "black",
-        "textColor": "white"
+        "textColor": "white",
+        "description": "GND"
     },
     "vdd": {
         "borderColor": "red",
         "backgroundColor": "red",
-        "textColor": "white"
+        "textColor": "white",
+        "description": "VDD 3V3"
     },
 }
 
-pinout = gen.Package("QFN-20", "SOP")
-pinout.set_footprint(20, 40, 40, 20, 60)
-pinout.set_label(80, 10, 30)
+pinout = gen.Package("CH32v003F4U6", "QFN")
+pinout.set_footprint(20, 40, 30, 20, 60)
+pinout.set_label(110, 10, 30)
 pinout.add_types(types)
 pinout.add_pins(pins)
 
