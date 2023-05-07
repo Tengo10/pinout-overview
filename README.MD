@@ -5,8 +5,9 @@ A very work in progress pinout diagram generator using Python and drawsvg
 
 # TODO
 
- - Add SOP footprint
- - Some error checking
- - Documentation
- - more customizability 
-
+- Some error checking
+- Documentation
+- More customizability
+- Improve SVG generation
+- Add different styling options
+- Make it accept JSON or YAML files for cli use
