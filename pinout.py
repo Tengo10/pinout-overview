@@ -87,12 +87,33 @@ class Package:
             self.package_height = (self.pin_number/2+1) * self.pin_spacing
             self.package_width = 200
             print(self.package_height)
-            outside = dw.Rectangle(self.pin_length,0, self.package_width, self.package_height, 
-                                   stroke="black", stroke_width=2, fill="none")
-            inside = dw.Rectangle(self.pin_length+self.package_width*0.025, self.package_width*0.025, 
-                                  self.package_width-self.package_width*0.025*2, self.package_height-self.package_width*0.025*2, 
-                                  stroke="black", stroke_width=2, fill="none")
+            #outside = dw.Rectangle(self.pin_length,0, self.package_width, self.package_height, 
+            #                       stroke="black", stroke_width=2, fill="none")
+            #inside = dw.Rectangle(self.pin_length+self.package_width*0.025, self.package_width*0.025, 
+            #                      self.package_width-self.package_width*0.025*2, self.package_height-self.package_width*0.025*2, 
+            #                      stroke="black", stroke_width=2, fill="none")
             
+            border = dw.Path(stroke="black", stroke_width=2, fill="none")
+            border.M(self.pin_length, 0)
+            border.H(self.pin_length+self.package_width)
+            border.V(self.package_height)
+            border.H(self.pin_length)
+            border.V(0)
+            border.M(self.pin_length+self.package_width*0.025, self.package_width*0.025)
+            border.H(self.pin_length+self.package_width*(1-0.025))
+            border.V(self.package_height-self.package_width*0.025)
+            border.H(self.pin_length+self.package_width*0.025)
+            border.V(self.package_width*0.025)
+            border.L(self.pin_length, 0)
+            border.M(self.pin_length+self.package_width, 0)
+            border.L(self.pin_length+self.package_width*(1-0.025), self.package_width*0.025)
+            border.M(self.pin_length+self.package_width, self.package_height)
+            border.L(self.pin_length+self.package_width*(1-0.025), self.package_height-self.package_width*0.025)
+            border.M(self.pin_length, self.package_height)
+            border.L(self.pin_length+self.package_width*0.025, self.package_height-self.package_width*0.025)
+            #border.M(self.pac)
+
+
             dw_pin = dw.Path(stroke="black", stroke_width=2, fill="none")
             dw_pin.M(0,0)
             dw_pin.H(self.pin_length)
@@ -110,8 +131,9 @@ class Package:
                 dw_pins.append(dw.Use(dw_pin, 0, self.pin_spacing*(p+1)))
                 dw_pins.append(dw.Use(dw_pin, self.pin_length+self.package_width, self.pin_spacing*(p+1)))
 
-            dw_footprint.append(outside)
-            dw_footprint.append(inside)
+            #dw_footprint.append(outside)
+            #dw_footprint.append(inside)
+            dw_footprint.append(border)
             dw_footprint.append(dw_pins)
 
 
@@ -241,6 +263,13 @@ class Package:
         print(self.canvas_width, "  ", self.canvas_height)
         self.dwPinout.append(dw.Use(dw_footprint, -self.package_width/2, -self.package_height/2))
         self.dwPinout.append(dw.Use(dw_labels, -self.package_width/2, -self.package_height/2))
+
+    def _generate_legend(self):
+        label_amount = len(self.types)
+        labels = []
+        for label in self.types:
+            labels.append(self._generate_label(label["type"], label["borderColor"], label["fillColor"] , label["textColor"]))
+
 
     def _check_color(self, color):
         if isinstance(color, tuple) and len(color) == 3:
