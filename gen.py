@@ -210,5 +210,6 @@ pinout.set_footprint(20, 40, 30, 20, 60)
 pinout.set_label(110, 10, 30)
 pinout.add_types(types)
 pinout.add_pins(pins)
+pinout.is_diag = False
 
 pinout.save()
