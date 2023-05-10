@@ -58,11 +58,11 @@ class Package:
 
     def __draw_QFN(self):
 
-        pin_length = self.pin_length
         package_width = self.package_width
 
-        footprint = dw.Group(id=self.name, transform=f"rotate({45 if self.is_diag else 0}, {package_width/2}, {package_width/2})")
-
+        package = dw.Group(id="Package", transform=f"rotate({45 if self.is_diag else 0}, {package_width/2}, {package_width/2})")
+        footprint = dw.Group(id=self.name)
+        
         border = dw.Rectangle(0, 0, package_width, package_width, 
                                  stroke="black", stroke_width=2, fill="grey")
         
@@ -81,7 +81,7 @@ class Package:
                                stroke="black", stroke_width=2, fill="lightgrey")
         
         for p in range(int(self.pin_number/4)):
-                pins.append(dw.Use(pin, self.pin_spacing*p, 0,))
+            pins.append(dw.Use(pin, self.pin_spacing*p, 0,))
         
         dot = dw.Circle(self.corner_spacing-self.pin_width/6, self.corner_spacing-self.pin_width/6,
                               self.pin_width/3, stroke="black", stroke_width=2, fill="lightgrey")
@@ -90,15 +90,33 @@ class Package:
                                      text_anchor='middle', dominant_baseline='middle',
                                      fill="black", font_weight='bold', font_family='Roboto Mono')
         
-               
-        footprint.append(border)
-        footprint.append(pad)
-        footprint.append(dot)
+        pin_numbers = dw.Group(id="PinNumbers")
+        if self.is_diag:
+            top_start_y = - self.package_width * SIN_45 + self.corner_spacing * SIN_45 + self.pin_width*0.75 * SIN_45
+            top_start_x = - self.corner_spacing * COS_45 + self.pin_width*0.75 * COS_45
+            #top_start_x = 0
+            middle_start_x = (self.corner_spacing + self.pin_spacing*4)*SIN_45-self.package_width*SIN_45*1.5 - self.pin_width*0.25 * SIN_45
+            middle_start_y = self.corner_spacing * COS_45 - self.pin_width*0.75 * SIN_45
+            for i in range(int(self.pin_number/4)):
+                number_xy = self.pin_spacing * COS_45 * i
+                pin_numbers.append(dw.Text(str(i), 15, top_start_x-number_xy, top_start_y+number_xy,
+                                            text_anchor='middle', dominant_baseline='middle',
+                                            font_family='Roboto Mono', fill="black"))
+            for i in range(int(self.pin_number/4)):
+                number_xy = self.pin_spacing * COS_45 * i
+                pin_numbers.append(dw.Text(str(i+int(self.pin_number/4)), 15, middle_start_x+number_xy, middle_start_y+number_xy,
+                                            text_anchor='middle', dominant_baseline='middle',
+                                            font_family='Roboto Mono', fill="black"))
+                
+        package.append(border)
+        package.append(pad)
+        package.append(dot)
         for i in range(4):
-            footprint.append(dw.Use(pins, self.corner_spacing-self.pin_width/2, 0,
+            package.append(dw.Use(pins, self.corner_spacing-self.pin_width/2, 0,
                                     transform=f"rotate({i*90}, {package_width/2}, {package_width/2})"))
+        footprint.append(package)
         footprint.append(dw.Use(footprint_text, self.package_width/2, self.package_height/2))
-        
+        footprint.append(dw.Use(pin_numbers, self.package_width/2, self.package_height/2))
         return footprint
 
     def __draw_SOP(self):
@@ -199,19 +217,21 @@ class Package:
     def __calc_index_QFN_diag(self):
         label_pos_index = []
         # Left Top side
-        top_start_y = - self.package_width * SIN_45 + self.corner_spacing * SIN_45# - self.pin_width/2 * SIN_45
-        top_start_x = - self.corner_spacing * COS_45# - self.pin_width/2 * COS_45
+        top_start_y = - self.package_width * SIN_45 + self.corner_spacing * SIN_45# + self.pin_width/4 * SIN_45
+        top_start_x = - self.corner_spacing * COS_45# - self.pin_width/4 * COS_45
 
         middle_start_x = (self.corner_spacing + self.pin_spacing*4)*SIN_45
         middle_start_y = self.corner_spacing * COS_45
 
         label_spacing = self.pin_spacing / SIN_45
 
+        # Left Top side
         for i in range(int(self.pin_number/4)):
             step = (self.pin_spacing)*SIN_45*i
             index = [ -1,
                     [top_start_x - step, top_start_y + step],
-                    [top_start_x - (self.pin_spacing)*SIN_45*4-50, top_start_y + step*1.4-label_spacing]
+                    [top_start_x - step - 100, top_start_y + step*1.4-label_spacing+self.pin_width/2],
+                    1
                  ]
             label_pos_index.append(index)
         # Left Bottom side
@@ -219,7 +239,8 @@ class Package:
             step = (self.pin_spacing)*SIN_45*i
             index = [ -1,
                     [-middle_start_x + step, middle_start_y + step],
-                    [top_start_x - (self.pin_spacing)*SIN_45*4-50, middle_start_y + step*1.4+label_spacing]
+                    [-middle_start_x + step-100, middle_start_y + step*1.4],
+                    -1
                  ]
             label_pos_index.append(index)
 
@@ -228,7 +249,8 @@ class Package:
             step = (self.pin_spacing)*SIN_45*i
             index = [ 1,
                     [-top_start_x + step, top_start_y + step],
-                    [-top_start_x + step + 100, top_start_y + step*1.4-label_spacing]
+                    [-top_start_x + step + 100, top_start_y + step*1.4-label_spacing+self.pin_width/2],
+                    -1
                  ]
             label_pos_index.append(index)
         
@@ -237,7 +259,8 @@ class Package:
             step = (self.pin_spacing)*SIN_45*i
             index = [ 1,
                     [middle_start_x - step, middle_start_y + step],
-                    [middle_start_x - step + 100, middle_start_y + step*1.4+label_spacing]
+                    [middle_start_x - step + 100, middle_start_y + step*1.4],
+                    1
                  ]
             label_pos_index.append(index)
         return label_pos_index
@@ -264,10 +287,12 @@ class Package:
                                  fill=backgroundColour, transform=f"skewX({skew})")
         return label_box
     
-    def _generate_label(self, name, border_color, background_color, text_color, alt=False):
-        dw_label = dw.Group(id=f"Label{name}-{'alt' if alt else 'std'}")
-
-        skew = -self.label_height/2
+    def _generate_label(self, name, border_color, background_color, text_color, alt=False, direction=1):
+        dw_label = dw.Group(id=f"Label{name}-{'alt' if alt else 'std'}-{direction}")
+        if direction == 1:
+            skew = -self.label_height/2
+        else:
+            skew = self.label_height/2
 
         border_color = self._check_color(border_color)
         background_color = self._check_color(background_color)
@@ -293,7 +318,7 @@ class Package:
 
 
     
-    def _generate_pin_label(self, pin, pin_functions, side=1):
+    def _generate_pin_label(self, pin, pin_functions, side=1, direction=1):
         side2 = int((side-1) /(-2))
         label_spacing = self.label_spacing+self.label_width
         dw_pin_label = dw.Group(id=f"PIN-{pin}")
@@ -302,7 +327,7 @@ class Package:
             background_color = self.types[function["type"]]["backgroundColor"]
             text_color = self.types[function["type"]]["textColor"]
             label = self._generate_label(function["name"], border_color,
-                                         background_color, text_color, function["alt"])
+                                         background_color, text_color, function["alt"], direction)
             dw_pin_label.append(dw.Use(label, (i+side2)*label_spacing*side + self.label_spacing*side2, 0))
         return dw_pin_label
     
@@ -340,7 +365,7 @@ class Package:
                 label_pos_index.append(index)
         
         for i, pin in enumerate(self.pins):
-            dw_pin = self._generate_pin_label(str(i), pin, label_pos_index[i][0])
+            dw_pin = self._generate_pin_label(str(i), pin, label_pos_index[i][0], direction=label_pos_index[i][3])
             dw_labels.append(dw.Use(dw_pin, label_pos_index[i][2][0], label_pos_index[i][2][1]))
             dw_labels.append(self._generate_label_line(label_pos_index[i][1], label_pos_index[i][2]))
 
