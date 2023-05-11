@@ -7,7 +7,7 @@ pin_mapping = [ "PD7", "PA1", "PA2", "VSS", "PD0",
                 "PC4", "PC5", "PC6", "PC7", "PD1",
                 "PD2", "PD3", "PD4", "PD5", "PD6" ]
                   
-pinout = gen.Package("ch32v003f4u6", "QFN")
+pinout = gen.Package("CH32V003F4U6", "QFN")
 pinout.set_footprint(20, 40, 30, 20, 60)
 pinout.set_label(110, 10, 30)
 pinout.add_types(types)

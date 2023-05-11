@@ -19,7 +19,7 @@ pins = [
      {"type": "tim1", "name":"CH2N", "alt": False},
      {"type": "spacer", "name":"", "alt": False},
      {"type": "opa", "name":"OPP0", "alt": False},
-     {"type": "adc", "name":"ETR2", "alt": False},
+     {"type": "adc", "name":"AETR2", "alt": False},
     ],
     [{"type": "vss", "name": "VSS", "alt": False},
     ],
@@ -44,14 +44,13 @@ pins = [
      {"type": "tim1", "name": "BKIN", "alt": True},
      {"type": "spi", "name":"NSS", "alt": False},
      {"type": "uart", "name":"RX", "alt": True},
-     {"type": "tim2", "name":"CH4", "alt": True},
-     {"type": "tim2", "name":"CH1", "alt": True},
+     {"type": "tim2", "name":"CH1/4", "alt": True},
      {"type": "tim2", "name":"ETR", "alt": True},
     ],
     [{"type": "pin", "name": "PC2", "alt": False},
      {"type": "i2c", "name":"SCL", "alt": False},
      {"type": "tim1", "name": "BKIN", "alt": False},
-     {"type": "adc", "name":"ETR", "alt": True},
+     {"type": "adc", "name":"AETR", "alt": True},
      {"type": "uart", "name":"RTS", "alt": False},
      {"type": "tim2", "name":"CH2", "alt": True},
      {"type": "tim1", "name":"ETR", "alt": True},
@@ -160,8 +159,8 @@ types = {
         "description": "ADC"
     },
     "sys": {
-        "borderColor": "#9600CC",
-        "backgroundColor": "#E399FF",
+        "borderColor": "#CCAA00",
+        "backgroundColor": "#FFE97C",
         "textColor": "black",
         "description": "SYSTEM"
     },
@@ -178,10 +177,10 @@ types = {
         "description": "TIMER 2"
     },
     "opa": {
-        "borderColor": "#CCAA00",
-        "backgroundColor": "#FFE97C",
+        "borderColor": "#9600CC",
+        "backgroundColor": "#E399FF",
         "textColor": "black",
-        "description": "OPA"
+        "description": "OP AMP"
     },
     "pin": {
         "borderColor": "black",

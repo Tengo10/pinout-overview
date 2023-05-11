@@ -43,7 +43,7 @@ class Package:
             "borderColor": "white",
             "backgroundColor": "white",
             "textColor": "white",
-            "opacity" : 0,
+            "skip" : True,
             "description": "spacer"
         }
 
@@ -84,7 +84,7 @@ class Package:
                                  stroke="black", stroke_width=2, fill="grey")
         
 
-        pad = dw.Path(stroke_width=2, stroke='black', fill='lightgrey')
+        pad = dw.Path(stroke_width=2, stroke='black', fill='lightgrey', stroke_dasharray="4" )
         pad.M(self.corner_spacing+self.pin_width, self.corner_spacing-self.pin_width/2)
         pad.H(package_width-self.corner_spacing+self.pin_width/2)
         pad.V(package_width-self.corner_spacing+self.pin_width/2)
@@ -95,12 +95,12 @@ class Package:
         pins = dw.Group(id="Pins")
         pin = dw.Rectangle(0, 0,
                                self.pin_width, self.pin_length,
-                               stroke="black", stroke_width=2, fill="lightgrey")
+                               stroke="black", stroke_width=2, fill="lightgrey", stroke_dasharray="4")
         
         for p in range(int(self.pin_number/4)):
             pins.append(dw.Use(pin, self.pin_spacing*p, 0,))
         
-        dot = dw.Circle(self.corner_spacing-self.pin_width/6, self.corner_spacing-self.pin_width/6,
+        dot = dw.Circle(self.corner_spacing/2-self.pin_width/6, self.corner_spacing/2-self.pin_width/6,
                               self.pin_width/3, stroke="black", stroke_width=2, fill="lightgrey")
                 
         pin_numbers = dw.Group(id="PinNumbers")
@@ -212,8 +212,8 @@ class Package:
 
         footprint.append(pins)
         footprint.append(border)
-        footprint.append(borderInner)
-        footprint.append( dw.Use( dw.Circle( 0, 0, 10, stroke="black", stroke_width=2, fill="lightgrey" ), -border_core_width/2+45, -border_core_height/2+35))
+        #footprint.append(borderInner) # Makes it look weird I fthink.
+        footprint.append( dw.Use( dw.Circle( 0, 0, 10, stroke="black", stroke_width=2, fill="lightgrey" ), -border_core_width/2+30, -border_core_height/2+30))
 
 
         footprint_text = dw.Text(self.footprint_text, 30, 0, 0,
@@ -342,7 +342,7 @@ class Package:
         label_box = dw.Rectangle(0, 0, width, height, rx=radius, ry=radius, 
                                  stroke=borderColour, stroke_width=borderWidth, 
                                  fill=backgroundColour, transform=f"skewX({skew})",
-                                 stroke_dasharray="2" if alt else "", opacity=0.5 if alt else 1)
+                                 stroke_dasharray="3 4" if alt else "", opacity=1)
         return label_box
     
     def _generate_label(self, name, border_color, background_color, text_color, alt=False, direction=1):
@@ -380,25 +380,31 @@ class Package:
         side2 = int((side-1) /(-2))
         label_spacing = self.label_spacing+self.label_width
         dw_pin_label = dw.Group(id=f"PIN-{pin}-{afpin}")
+        extent=0
         for i, function in enumerate(pin_functions):
-            border_color = self.types[function["type"]]["borderColor"]
-            background_color = self.types[function["type"]]["backgroundColor"]
-            text_color = self.types[function["type"]]["textColor"]
+            ftype = self.types[function["type"]]
+            if "skip" in ftype: continue
+            border_color = ftype["borderColor"]
+            background_color = ftype["backgroundColor"]
+            text_color = ftype["textColor"]
             label = self._generate_label(function["name"], border_color,
                                          background_color, text_color, function["alt"], direction)
             dw_pin_label.append(dw.Use(label, (i+side2)*label_spacing*side + self.label_spacing*side2, 0))
-        return dw_pin_label
+            extent=(i+0.5)*label_spacing*side
+        return dw_pin_label, extent, -self.label_width*.75*side
     
-    def _generate_label_line(self, start, stop):
+    def _generate_label_line(self, start, stop, extentXmax, extentXmin, yofs):
         dw_label_line = dw.Path(stroke="black", stroke_width=2, fill="none")
-        dw_label_line.M(start[0], start[1])
+        dw_label_line.M(start[0]-extentXmin, start[1]+yofs)
         dw_label_line.V(stop[1])
-        dw_label_line.H(stop[0])
+        dw_label_line.V(stop[1]+yofs)
+        dw_label_line.H(stop[0]+extentXmax)
         return dw_label_line
 
     def _generate_pinout(self):
         
         dw_labels = dw.Group(id="Labels")
+        dw_lineholder = dw.Group(id="Lines")
         dw_footprint = self._generate_footprint()
         self._calculate_size()
         self.label_height = self.pin_spacing-10
@@ -438,15 +444,15 @@ class Package:
                 v_offset = math.floor(self.label_pin_nominal_extra_spacing-len(m))/2*self.label_af_height;
                 for k in m:
                     pin = next(filter(lambda x: x[0]['name'] == k, self.pins))
-                    dw_pin = self._generate_pin_label(str(i), pin, label_pos_index[i][0], direction=label_pos_index[i][3], afpin=afpinno)
+                    dw_pin, extent, extentmin = self._generate_pin_label(str(i), pin, label_pos_index[i][0], direction=label_pos_index[i][3], afpin=afpinno)
+                    dw_lineholder.append(self._generate_label_line(label_pos_index[i][1], label_pos_index[i][2], extent, extentmin, afpinno*self.label_af_height + v_offset))
                     dw_labels.append(dw.Use(dw_pin, label_pos_index[i][2][0], label_pos_index[i][2][1]+afpinno*self.label_af_height + v_offset))
                     afpinno = afpinno+1
-                dw_labels.append(self._generate_label_line(label_pos_index[i][1], label_pos_index[i][2]))
             else:
                 pin = next(filter(lambda x: x[0]['name'] == m, self.pins))
-                dw_pin = self._generate_pin_label(str(i), pin, label_pos_index[i][0], direction=label_pos_index[i][3])
+                dw_pin, extent, extentmin = self._generate_pin_label(str(i), pin, label_pos_index[i][0], direction=label_pos_index[i][3])
+                dw_lineholder.append(self._generate_label_line(label_pos_index[i][1], label_pos_index[i][2], extent, extentmin, 0))
                 dw_labels.append(dw.Use(dw_pin, label_pos_index[i][2][0], label_pos_index[i][2][1]))
-                dw_labels.append(self._generate_label_line(label_pos_index[i][1], label_pos_index[i][2]))
 
         
         self.dwPinout = dw.Drawing(self.canvas_width, self.canvas_height, origin='center', displayInline=True)
@@ -455,6 +461,7 @@ class Package:
         self.dwPinout.append(dw.Rectangle(-self.canvas_width/2, -self.canvas_height/2, self.canvas_width, self.canvas_height,
                                           stroke="black", stroke_width=2, fill="white"))
         self.dwPinout.append(dw_footprint)
+        self.dwPinout.append(dw_lineholder)
         self.dwPinout.append(dw_labels)
         self.dwPinout.append(dw.Use(self._generate_legend(), -self.canvas_width/2, self.canvas_height/2-160))
         self.dwPinout.append(dw.Use(self._generate_title(), 0, -self.canvas_height/2+60))
@@ -527,7 +534,7 @@ class Package:
 
     def _calculate_size(self):
         max_labels = max(map(len, self.pins))
-        self.canvas_width = (self.package_width/2 + self.label_start + (self.label_width + self.label_spacing) * max_labels)*2 + 2
+        self.canvas_width = (self.package_width/2 + self.label_start + (self.label_width + self.label_spacing) * (max_labels+1))*2 + 2
         if self.footprint == "QFN":
             self.canvas_height = self.package_width + (self.pin_number/2+1) * self.pin_spacing + 4*self.corner_spacing + 2
         elif self.footprint == "SOP":
