@@ -10,8 +10,8 @@
 }
 /*]]>*/</style>
 <defs>
-<path d="M0,0 H100 V30 H0 V0 M33.333333333333336,0 V30 M66.66666666666667,0 V30 Z" stroke="black" stroke-width="2" fill="none" id="d0" />
-<path d="M0,0 H300 V390.0 H0 V0 Z" stroke="black" stroke-width="2" fill="grey" id="d1" />
+<path d="M0,0 H100 V40 H0 V0 M33.333333333333336,0 V40 M66.66666666666667,0 V40 Z" stroke="black" stroke-width="2" fill="none" id="d0" />
+<path d="M0,0 H300 V370.0 H0 V0 Z" stroke="black" stroke-width="2" fill="grey" id="d1" />
 <circle cx="0" cy="0" r="10" stroke="black" stroke-width="2" fill="lightgrey" id="d2" />
 <rect x="0" y="0" width="110" height="30" rx="2" ry="2" stroke="black" stroke-width="2" fill="grey" transform="skewX(-15.0)" stroke-dasharray="" opacity="1" id="d3" />
 <g id="LabelPD6-std-1">
@@ -506,17 +506,17 @@
 <rect x="-1191.0" y="-451.0" width="2382.0" height="902.0" stroke="black" stroke-width="2" fill="white" />
 <g id="CH32V003J4M6">
 <g id="Pins">
-<use xlink:href="#d0" x="-250.0" y="-150.0" />
-<use xlink:href="#d0" x="150.0" y="-150.0" />
-<use xlink:href="#d0" x="-250.0" y="-60.0" />
-<use xlink:href="#d0" x="150.0" y="-60.0" />
-<use xlink:href="#d0" x="-250.0" y="30.0" />
-<use xlink:href="#d0" x="150.0" y="30.0" />
-<use xlink:href="#d0" x="-250.0" y="120.0" />
-<use xlink:href="#d0" x="150.0" y="120.0" />
+<use xlink:href="#d0" x="-250.0" y="-155.0" />
+<use xlink:href="#d0" x="150.0" y="-155.0" />
+<use xlink:href="#d0" x="-250.0" y="-65.0" />
+<use xlink:href="#d0" x="150.0" y="-65.0" />
+<use xlink:href="#d0" x="-250.0" y="25.0" />
+<use xlink:href="#d0" x="150.0" y="25.0" />
+<use xlink:href="#d0" x="-250.0" y="115.0" />
+<use xlink:href="#d0" x="150.0" y="115.0" />
 </g>
-<use xlink:href="#d1" x="-150.0" y="-195.0" />
-<use xlink:href="#d2" x="-120.0" y="-165.0" />
+<use xlink:href="#d1" x="-150.0" y="-185.0" />
+<use xlink:href="#d2" x="-120.0" y="-155.0" />
 <text x="0" y="0" font-size="30" text-anchor="middle" dominant-baseline="middle" alignment-baseline="center" fill="black" font-weight="bold" font-family="Roboto Mono">SOP-8</text>
 <g id="PinNumbers">
 <text x="-124.0" y="-135.0" font-size="15" text-anchor="middle" dominant-baseline="middle" font-family="Roboto Mono" fill="black">1</text>

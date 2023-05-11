@@ -6,7 +6,7 @@ pin_mapping = [ ["PD6","PA1"], "VSS", "PA2", "VDD",
                 "PC1", "PC2", "PC4", ["PD1","PD5","PD4"] ]
                   
 pinout = gen.Package("CH32V003J4M6", "SOP")
-pinout.set_footprint(8, 40, 100, 30, 60)
+pinout.set_footprint(8, 40, 100, 40, 60)
 pinout.set_label(110, 10, 30)
 pinout.add_types(types)
 pinout.add_pins(pins)
