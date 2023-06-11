@@ -1,0 +1,18 @@
+pins: !include ./pins.yaml
+types: !include types.yaml
+
+pin: !include ../defaults/pin_sop.yaml
+label: !include ../defaults/label_sop.yaml
+
+package_text:
+  text: SOP-8
+  sub_text: ""
+
+package: !include ../defaults/package_sop.yaml
+
+footprint: SOP-8
+name: CH32v003J4M6
+subtitle: "SOP-8 3.9x5.0mm\n1.27mm Pitch"
+
+mapping: [[PD6,PA1], VSS, PA2, VDD,
+          PC1, PC2, PC4, [PD1,PD5,PD4]]

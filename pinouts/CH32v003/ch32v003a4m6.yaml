@@ -1,0 +1,20 @@
+pins: !include ./pins.yaml
+types: !include types.yaml
+
+pin: !include ../defaults/pin_sop.yaml
+label: !include ../defaults/label_sop.yaml
+
+package_text:
+  text: SOP-16
+  sub_text: ""
+
+package: !include ../defaults/package_sop.yaml
+
+footprint: SOP-16
+name: CH32V003A4M6
+subtitle: "SOP-16 3.9x10mm\n1.27mm Pitch"
+
+mapping: [PC1, PC2, PC3, PC4,
+          PC6, PC7, PD1, PD4,
+          PD5, PD6, PD7, PA1,
+          PA2, VSS, VDD, PD0]
