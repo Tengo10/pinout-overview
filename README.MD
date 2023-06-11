@@ -85,7 +85,10 @@ SVGs will be saved in the directory
 # TODO
 
 - [ ] Error checking
-- [ ] Documentation
+- [x] Documentation
 - [ ] Improve SVG generation
 - [ ] Add different styling options
+- [ ] Added YAML functionality like Homeassistant and ESPHome has
+- [ ] Improve modularity to allow for more complex footprints
+- [ ] Clean up a lot of bad programming and improve readability 
 - [x] Use config files and cli
