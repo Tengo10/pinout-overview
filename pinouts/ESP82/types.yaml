@@ -1,0 +1,94 @@
+uart0:
+  description: UART0
+  box_style:
+    stroke: '#CC0092' #'#CC0092'
+    fill: '#FFA3E5'
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+i2c:
+  description: I2C
+  box_style:
+    stroke: "#00B8CC"
+    fill: "#88EBF7"
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+spi:
+  description: SPI
+  box_style:
+    stroke: "#00CC5F"
+    fill: "#8CEEBA"
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+adc:
+  description: ADC
+  box_style:
+    stroke: "#0060CD"
+    fill: "#A2CEFF"
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+sys:
+  width: 150
+  description: SYSTEM
+  box_style:
+    stroke: "#CCAA00"
+    fill: "#FFE97C"
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+tim1:
+  description: TIMER 1
+  box_style:
+    stroke: "#00CCA0"
+    fill: "#99FFE9"
+  text_style:
+    font_family: Roboto Mono 
+    fill: black
+tim2:
+  description: TIMER 2
+  box_style:
+    stroke: "#69CC00"
+    fill: "#DAFFB3"
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+sdio:
+  description: SDIO
+  box_style:
+    stroke: "#9600CC"
+    fill: "#E399FF"
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+pin:
+  width: 80
+  description: PIN NAME
+  box_style:
+    stroke: black
+    fill: grey
+  text_style:
+    font_family: Roboto Mono
+    fill: white
+vss:
+  width: 80
+  description: GND
+  box_style:
+    stroke: black
+    fill: black
+  text_style:
+    font_family: Roboto Mono
+    fill: white
+vdd:
+  width: 120
+  description: 2.5V-3.6V
+  box_style:
+    stroke: red
+    fill: red
+  text_style:
+    font_family: Roboto Mono
+    fill: black
+spacer:
+  skip: True

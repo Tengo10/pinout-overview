@@ -1,0 +1,25 @@
+pins: !include ./pins.yaml
+types: !include types.yaml
+
+pin: !include ../defaults/pin_qfn.yaml
+label: !include ../defaults/label_qfn.yaml
+
+package_text:
+  text: "QFN-32\nTOP VIEW"
+  sub_text: "Connect thermal pad\npad to ground"
+
+package: !include ../defaults/package_qfn.yaml
+
+footprint: QFN-20
+name: ESP8266EX
+subtitle: ""
+canvas_width: 1700
+canvas_height: 1200
+
+mapping: [P1, P2, P3, P4, P5,
+          P6, P7, P8, P9, P10,
+          P11, P12, P13, P14, P15,
+          P16, P17, P18, P19, P20,
+          P21, P22, P23, P24, P25,
+          P26, P27, P28, P29, P30,
+          P31, P32]

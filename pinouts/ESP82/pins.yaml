@@ -1,0 +1,176 @@
+P1:
+  - type: vdd
+    name: VDDA
+    alt: False
+P2:
+  - type: sys
+    name: LNA
+    alt: False
+P3:
+  - type: vdd
+    name: VDD3P3
+    alt: False
+P4:
+  - type: vdd
+    name: VDD3P3
+    alt: False
+P5:
+  - type: pin
+    name: NC
+    alt: False
+P6:
+  - type: adc
+    name: TOUT
+    alt: False
+P7:
+  - type: sys
+    name: CHIP_EN
+    alt: False
+P8:
+  - type: sys
+    name: XPD_DCDC
+    alt: False
+P9:
+  - type: pin
+    name: "14"
+    alt: False
+  - type: spi
+    name: CLK
+    alt: False
+P10:
+  - type: pin
+    name: "12"
+    alt: False
+  - type: spi
+    name: MISO
+    alt: False
+P11:
+  - type: vdd
+    name: VDDPST
+    alt: False
+P12:
+  - type: pin
+    name: "13"
+    alt: False
+  - type: spi
+    name: MOSI
+    alt: False
+  - type: uart0
+    name: CTS
+    alt: False
+P13:
+  - type: pin
+    name: "15"
+    alt: False
+  - type: spi
+    name: CS
+    alt: False
+  - type: uart0
+    name: RTS
+    alt: False
+P14:
+  - type: pin
+    name: "2"
+    alt: False
+  - type: uart0
+    name: TXD
+    alt: True
+P15:
+  - type: pin
+    name: "0"
+    alt: False
+  - type: spi
+    name: CS2
+    alt: True
+P16:
+  - type: pin
+    name: "4"
+    alt: False
+P17:
+  - type: vdd
+    name: VDDPST
+    alt: False
+P18:
+  - type: pin
+    name: "9"
+    alt: False
+  - type: sdio
+    name: DATA2
+    alt: False
+P19:
+  - type: pin
+    name: "10"
+    alt: False
+  - type: sdio
+    name: DATA3
+    alt: False
+P20:
+  - type: pin
+    name: "11"
+    alt: False
+  - type: sdio
+    name: CMD
+    alt: False
+P21:
+  - type: pin
+    name: "6"
+    alt: False
+  - type: sdio
+    name: CLK
+    alt: False
+P22:
+  - type: pin
+    name: "7"
+    alt: False
+  - type: sdio
+    name: DATA0
+    alt: False
+P23:
+  - type: pin
+    name: "8"
+    alt: False
+  - type: sdio
+    name: DATA1
+    alt: False
+P24:
+  - type: pin
+    name: "5"
+    alt: False
+P25:
+  - type: pin
+    name: "3"
+    alt: False
+  - type: uart0
+    name: RXD
+    alt: False
+P26:
+  - type: pin
+    name: "1"
+    alt: False
+  - type: uart0
+    name: TXD
+    alt: False
+P27:
+  - type: sys
+    name: OSCO
+    alt: False
+P28:
+  - type: sys
+    name: OSCI
+    alt: False
+P29:
+  - type: vdd
+    name: VDDD
+    alt: False
+P30:
+  - type: vdd
+    name: VDDA
+    alt: False
+P31:
+  - type: sys
+    name: RES12K
+    alt: False
+P32:
+  - type: sys
+    name: RST
+    alt: False
