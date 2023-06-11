@@ -1,0 +1,12 @@
+length: 40
+width: 20
+spacing: 40
+number_offset: 5
+style:
+  stroke: black
+  stroke_width: 2
+  fill: lightgray
+text_style:
+  font_family: Roboto Mono
+  dominant_baseline: middle
+  fill: black

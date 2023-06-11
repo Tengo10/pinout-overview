@@ -1,0 +1,25 @@
+
+width: 200
+diagonal: False
+style:
+  stroke: black
+  stroke_width: 2
+  fill: grey
+text_style:
+  font_family: Roboto Mono
+  dominant_baseline: middle
+  text_anchor: middle
+  font_size: 30
+  fill: black
+sub_text_style:
+  font_family: Roboto Mono
+  dominant_baseline: middle
+  text_anchor: middle
+  font_size: 20
+  font_style: italic
+  fill: black
+
+marker_style:
+  stroke: black
+  stroke_width: 2
+  fill: lightgrey

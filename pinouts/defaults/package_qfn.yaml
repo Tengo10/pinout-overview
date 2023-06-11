@@ -1,0 +1,25 @@
+
+width: 200
+diagonal: True
+style:
+  stroke: black
+  stroke_width: 2
+  fill: grey
+text_offset: -35
+text_style:
+  font_family: Roboto Mono
+  dominant_baseline: middle
+  text_anchor: middle
+  font_size: 30
+sub_text_offset: 20
+sub_text_style:
+  font_family: Roboto Mono
+  dominant_baseline: middle
+  text_anchor: middle
+  font_size: 15
+  font_style: italic
+
+marker_style:
+  stroke: black
+  stroke_width: 2
+  fill: lightgrey
