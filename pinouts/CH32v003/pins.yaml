@@ -1,0 +1,327 @@
+PD7:
+  - type: pin
+    name: PD7
+    alt: False
+  - type: spacer
+  - type: spacer
+  - type: tim2
+    name: CH4
+    alt: False
+  - type: uart
+    name: CK
+    alt: True
+  - type: opa
+    name: OPP1
+    alt: False
+PA1:
+  - type: pin
+    name: PA1
+    alt: False
+  - type: adc
+    name: A1
+    alt: False
+  - type: sys
+    name: OSCI
+    alt: False
+  - type: tim1
+    name: CH2
+    alt: False
+  - type: spacer
+  - type: opa
+    name: OPN0
+    alt: False
+PA2:
+  - type: pin
+    name: PA2
+    alt: False
+  - type: adc
+    name: A0
+    alt: False
+  - type: sys
+    name: OSCO
+    alt: False
+  - type: tim1
+    name: CH2N
+    alt: False
+  - type: spacer
+  - type: opa
+    name: OPP0
+    alt: False
+  - type: adc
+    name: AETR2
+    alt: False
+VSS:
+  - type: vss
+    name: VSS
+    alt: False
+VDD:
+  - type: vdd
+    name: VDD
+    alt: False
+PD0:
+  - type: pin
+    name: PD0
+    alt: False
+  - type: spacer
+  - type: spacer
+  - type: tim1
+    name: CH1N
+    alt: False
+  - type: uart
+    name: TXD
+    alt: True
+  - type: opa
+    name: OPN1
+    alt: False  
+  - type: i2c
+    name: SDA
+    alt: True
+
+PC0:
+  - type: pin
+    name: PC0
+    alt: False
+  - type: tim2
+    name: CH3
+    alt: False
+  - type: tim1
+    name: CH3
+    alt: True
+  - type: spi
+    name: NSS
+    alt: True
+  - type: uart
+    name: TX
+    alt: True
+PC1:
+  - type: pin
+    name: PC1
+    alt: False
+  - type: i2c
+    name: SDA
+    alt: False
+  - type: tim1
+    name: BKIN
+    alt: True
+  - type: spi
+    name: NSS
+    alt: False
+  - type: uart
+    name: RX
+    alt: True
+  - type: tim2
+    name: CH1/4
+    alt: True
+  - type: tim2
+    name: ETR
+    alt: True
+PC2:
+  - type: pin
+    name: PC2
+    alt: False
+  - type: i2c
+    name: SCL
+    alt: False
+  - type: tim1
+    name: BKIN
+    alt: False
+  - type: adc
+    name: AETR
+    alt: True
+  - type: uart
+    name: RTS
+    alt: False
+  - type: tim2
+    name: CH2
+    alt: True
+  - type: tim1
+    name: ETR
+    alt: True
+PC3:
+  - type: pin
+    name: PC3
+    alt: False
+  - type: spacer
+  - type: tim1
+    name: CH3
+    alt: True
+  - type: spacer
+  - type: tim1
+    name: CH1N
+    alt: True
+  - type: uart
+    name: CTS
+    alt: True
+PC4:
+  - type: pin
+    name: PC4
+    alt: False
+  - type: adc
+    name: A2
+    alt: False
+  - type: tim1
+    name: CH4
+    alt: False
+  - type: sys
+    name: MCO
+    alt: False
+  - type: tim1
+    name: CH1CH2N
+    alt: True
+PC5:
+  - type: pin
+    name: PC5
+    alt: False
+  - type: spi
+    name: SCK
+    alt: False
+  - type: tim1
+    name: T1ETR
+    alt: False
+  - type: tim1
+    name: CH3
+    alt: True
+  - type: i2c
+    name: SCL
+    alt: True
+  - type: uart
+    name: UCK
+    alt: True
+PC6:
+  - type: pin
+    name: PC6
+    alt: False
+  - type: spi
+    name: MISO
+    alt: False
+  - type: tim1
+    name: T1C1C3N
+    alt: True
+  - type: spacer
+  - type: i2c
+    name: SDA
+    alt: True
+  - type: uart
+    name: UCTS
+    alt: True
+PC7:
+  - type: pin
+    name: PC7
+    alt: False
+  - type: spi
+    name: MOSI
+    alt: False
+  - type: tim1
+    name: T1CH2
+    alt: True
+  - type: spacer
+  - type: spacer  
+  - type: uart
+    name: URTS
+    alt: True
+  - type: tim2
+    name: T2CH2
+    alt: True
+PD1:
+  - type: pin
+    name: PD1
+    alt: False
+  - type: adc
+    name: AETR2
+    alt: False
+  - type: tim1
+    name: T1CH3N
+    alt: False
+  - type: sys
+    name: SWIO
+    alt: False
+  - type: i2c
+    name: SCL
+    alt: True
+  - type: uart
+    name: URX
+    alt: True
+PD2:
+  - type: pin
+    name: PD2
+    alt: False
+  - type: adc
+    name: A3
+    alt: False
+  - type: tim1
+    name: T1CH1
+    alt: False
+  - type: tim2
+    name: T2CH3
+    alt: True
+  - type: spacer
+  - type: tim1
+    name: T1CH2N
+    alt: True
+PD3:
+  - type: pin
+    name: PD3
+    alt: False
+  - type: adc
+    name: A4
+    alt: False
+  - type: tim2
+    name: T2CH2
+    alt: False
+  - type: tim1
+    name: T1CH4
+    alt: True
+  - type: adc
+    name: AETR
+    alt: True
+PD4:
+  - type: pin
+    name: PD4
+    alt: False
+  - type: adc
+    name: A7
+    alt: False
+  - type: tim2
+    name: T2C1ETR
+    alt: False
+  - type: opa
+    name: OPA
+    alt: True
+  - type: tim1
+    name: T1C4ETR
+    alt: True
+  - type: uart
+    name: UCK
+    alt: True
+PD5:
+  - type: pin
+    name: PD5
+    alt: False
+  - type: adc
+    name: A5
+    alt: False
+  - type: tim2
+    name: T2CH4
+    alt: True
+  - type: uart
+    name: UTX
+    alt: False
+  - type: uart
+    name: URX
+    alt: True
+PD6:
+  - type: pin
+    name: PD6
+    alt: False
+  - type: adc
+    name: A6
+    alt: False
+  - type: tim2
+    name: T2CH3
+    alt: True
+  - type: uart
+    name: URX
+    alt: False
+  - type: uart
+    name: UTX
+    alt: True
