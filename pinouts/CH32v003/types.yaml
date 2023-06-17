@@ -71,6 +71,14 @@ pin:
   text_style:
     font_family: Roboto Mono
     fill: white
+swd:
+  description: SWIO
+  box_style:
+    stroke: red
+    fill: "#FFE97C"
+  text_style:
+    font_family: Roboto Mono
+    fill: black
 vss:
   width: 80
   description: GND

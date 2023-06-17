@@ -232,7 +232,7 @@ PD1:
   - type: tim1
     name: T1CH3N
     alt: False
-  - type: sys
+  - type: swd
     name: SWIO
     alt: False
   - type: i2c
