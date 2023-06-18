@@ -10,6 +10,28 @@
 }
 /*]]>*/</style>
 <defs>
+<g id="lines">
+<path d="M-42.426406871192846,-155.56349186104043 H-42.426406871192846 V-220 H-665.7537879754125" stroke="black" stroke-width="2" fill="none" />
+<path d="M-70.71067811865474,-127.27922061357853 H-70.71067811865474 V-180 H-694.0380592228744" stroke="black" stroke-width="2" fill="none" />
+<path d="M-98.99494936611664,-98.99494936611663 H-98.99494936611664 V-140 H-832.3223304703363" stroke="black" stroke-width="2" fill="none" />
+<path d="M-127.27922061357853,-70.71067811865474 H-127.27922061357853 V-100 H-210.60660171779818" stroke="black" stroke-width="2" fill="none" />
+<path d="M-155.56349186104043,-42.42640687119284 H-155.56349186104043 V-60 H-888.8908729652601" stroke="black" stroke-width="2" fill="none" />
+<path d="M-155.56349186104043,42.426406871192846 H-155.56349186104043 V62.426406871192846 H-238.8908729652601" stroke="black" stroke-width="2" fill="none" />
+<path d="M-127.27922061357853,70.71067811865474 H-127.27922061357853 V102.42640687119285 H-640.6066017177982" stroke="black" stroke-width="2" fill="none" />
+<path d="M-98.99494936611663,98.99494936611664 H-98.99494936611663 V142.42640687119285 H-832.3223304703363" stroke="black" stroke-width="2" fill="none" />
+<path d="M-70.71067811865474,127.27922061357853 H-70.71067811865474 V182.42640687119285 H-804.0380592228744" stroke="black" stroke-width="2" fill="none" />
+<path d="M-42.42640687119284,155.56349186104043 H-42.42640687119284 V222.42640687119285 H-665.7537879754125" stroke="black" stroke-width="2" fill="none" />
+<path d="M42.426406871192846,155.56349186104043 H42.426406871192846 V220 H555.7537879754125" stroke="black" stroke-width="2" fill="none" />
+<path d="M70.71067811865474,127.27922061357853 H70.71067811865474 V180 H694.0380592228744" stroke="black" stroke-width="2" fill="none" />
+<path d="M98.99494936611664,98.99494936611663 H98.99494936611664 V140 H722.3223304703363" stroke="black" stroke-width="2" fill="none" />
+<path d="M127.27922061357853,70.71067811865474 H127.27922061357853 V100 H860.6066017177982" stroke="black" stroke-width="2" fill="none" />
+<path d="M155.56349186104043,42.42640687119284 H155.56349186104043 V60 H778.8908729652601" stroke="black" stroke-width="2" fill="none" />
+<path d="M155.56349186104043,-42.426406871192846 H155.56349186104043 V-62.426406871192846 H778.8908729652601" stroke="black" stroke-width="2" fill="none" />
+<path d="M127.27922061357853,-70.71067811865474 H127.27922061357853 V-102.42640687119285 H640.6066017177982" stroke="black" stroke-width="2" fill="none" />
+<path d="M98.99494936611663,-98.99494936611664 H98.99494936611663 V-142.42640687119285 H722.3223304703363" stroke="black" stroke-width="2" fill="none" />
+<path d="M70.71067811865474,-127.27922061357853 H70.71067811865474 V-182.42640687119285 H584.0380592228744" stroke="black" stroke-width="2" fill="none" />
+<path d="M42.42640687119284,-155.56349186104043 H42.42640687119284 V-222.42640687119285 H555.7537879754125" stroke="black" stroke-width="2" fill="none" />
+</g>
 <rect x="-17.5" y="-10.0" width="35" height="20" stroke="black" stroke-width="2" fill="lightgray" id="d0" />
 <g id="pins">
 <use xlink:href="#d0" x="-122.5" y="-80.0" />
@@ -17,6 +39,41 @@
 <use xlink:href="#d0" x="-122.5" y="0.0" />
 <use xlink:href="#d0" x="-122.5" y="40.0" />
 <use xlink:href="#d0" x="-122.5" y="80.0" />
+</g>
+<g id="CH32V003F4U6">
+<g id="package" transform="rotate(45, 0, 0)">
+<rect x="-140.0" y="-140.0" width="280.0" height="280.0" stroke="black" stroke-width="2" fill="grey" />
+<path d="M-48.0,-80.0 H80.0 V80.0 H-80.0 V-48.0 Z" stroke="black" stroke-width="2" fill="lightgray" />
+<circle cx="-76.66666666666667" cy="-76.66666666666667" r="6.666666666666667" stroke="black" stroke-width="2" fill="lightgrey" />
+<use xlink:href="#pins" x="0" y="0" transform="rotate(0, 0, 0)" />
+<use xlink:href="#pins" x="0" y="0" transform="rotate(90, 0, 0)" />
+<use xlink:href="#pins" x="0" y="0" transform="rotate(180, 0, 0)" />
+<use xlink:href="#pins" x="0" y="0" transform="rotate(270, 0, 0)" />
+</g>
+<text x="0" y="-35" font-size="30" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle"><tspan x="0" dy="0em">QFN-20</tspan><tspan x="0" dy="1em">TOP VIEW</tspan></text>
+<text x="0" y="20" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic"><tspan x="0" dy="0em">Connect thermal pad</tspan><tspan x="0" dy="1em">pad to ground</tspan></text>
+<g id="pin-numbers">
+<text x="-31.819805153394636" y="-143.4213562373095" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">1</text>
+<text x="-60.104076400856535" y="-115.13708498984761" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">2</text>
+<text x="-88.38834764831843" y="-86.8528137423857" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">3</text>
+<text x="-116.67261889578033" y="-58.56854249492382" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">4</text>
+<text x="-144.95689014324222" y="-30.284271247461916" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">5</text>
+<text x="-144.4213562373095" y="32.81980515339464" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">6</text>
+<text x="-116.13708498984761" y="61.104076400856535" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">7</text>
+<text x="-87.8528137423857" y="89.38834764831843" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">8</text>
+<text x="-59.56854249492382" y="117.67261889578033" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">9</text>
+<text x="-31.284271247461916" y="145.95689014324222" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">10</text>
+<text x="31.819805153394636" y="145.4213562373095" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">11</text>
+<text x="60.104076400856535" y="117.13708498984761" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">12</text>
+<text x="88.38834764831843" y="88.8528137423857" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">13</text>
+<text x="116.67261889578033" y="60.56854249492382" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">14</text>
+<text x="144.95689014324222" y="32.284271247461916" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">15</text>
+<text x="144.4213562373095" y="-30.819805153394636" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">16</text>
+<text x="116.13708498984761" y="-59.104076400856535" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">17</text>
+<text x="87.8528137423857" y="-87.38834764831843" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">18</text>
+<text x="59.56854249492382" y="-115.67261889578033" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">19</text>
+<text x="31.284271247461916" y="-143.95689014324222" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">20</text>
+</g>
 </g>
 <g id="Label-PD7-std-1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
@@ -389,7 +446,7 @@
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">T1CH3N</text>
 </g>
 <g id="Label-SWIO-std-1">
-<rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#CCAA00" fill="#FFE97C" transform=" skewX(-15.0)" />
+<rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">SWIO</text>
 </g>
 <g id="Label-SCL-alt-1">
@@ -548,6 +605,28 @@
 <use xlink:href="#Label-URX-std--1" x="360.0" y="0" />
 <use xlink:href="#Label-UTX-alt--1" x="470.0" y="0" />
 </g>
+<g id="labels">
+<use xlink:href="#PIN-PD7-0-left-1" x="-75.75378797541251" y="-220" />
+<use xlink:href="#PIN-PA1-0-left-1" x="-104.03805922287441" y="-180" />
+<use xlink:href="#PIN-PA2-0-left-1" x="-132.3223304703363" y="-140" />
+<use xlink:href="#PIN-VSS-0-left-1" x="-160.60660171779818" y="-100" />
+<use xlink:href="#PIN-PD0-0-left-1" x="-188.8908729652601" y="-60" />
+<use xlink:href="#PIN-VDD-0-left--1" x="-188.8908729652601" y="62.426406871192846" />
+<use xlink:href="#PIN-PC0-0-left--1" x="-160.60660171779818" y="102.42640687119285" />
+<use xlink:href="#PIN-PC1-0-left--1" x="-132.32233047033628" y="142.42640687119285" />
+<use xlink:href="#PIN-PC2-0-left--1" x="-104.03805922287441" y="182.42640687119285" />
+<use xlink:href="#PIN-PC3-0-left--1" x="-75.75378797541251" y="222.42640687119285" />
+<use xlink:href="#PIN-PC4-0-right-1" x="75.75378797541251" y="220" />
+<use xlink:href="#PIN-PC5-0-right-1" x="104.03805922287441" y="180" />
+<use xlink:href="#PIN-PC6-0-right-1" x="132.3223304703363" y="140" />
+<use xlink:href="#PIN-PC7-0-right-1" x="160.60660171779818" y="100" />
+<use xlink:href="#PIN-PD1-0-right-1" x="188.8908729652601" y="60" />
+<use xlink:href="#PIN-PD2-0-right--1" x="188.8908729652601" y="-62.426406871192846" />
+<use xlink:href="#PIN-PD3-0-right--1" x="160.60660171779818" y="-102.42640687119285" />
+<use xlink:href="#PIN-PD4-0-right--1" x="132.32233047033628" y="-142.42640687119285" />
+<use xlink:href="#PIN-PD5-0-right--1" x="104.03805922287441" y="-182.42640687119285" />
+<use xlink:href="#PIN-PD6-0-right--1" x="75.75378797541251" y="-222.42640687119285" />
+</g>
 <g id="Label-UART-std-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">UART</text>
@@ -629,54 +708,64 @@
 <use xlink:href="#Label-PIN-std-1" x="0" y="0" />
 <use xlink:href="#d9" x="60.0" y="2.0" />
 </g>
+<g id="Label-SWD-std-1">
+<rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="#FFE97C" transform=" skewX(-15.0)" />
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">SWD</text>
+</g>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d10">SWIO</text>
+<g id="legend_swd">
+<use xlink:href="#Label-SWD-std-1" x="0" y="0" />
+<use xlink:href="#d10" x="60.0" y="2.0" />
+</g>
 <g id="Label-VSS-std-1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="black" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="white">VSS</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d10">GND</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d11">GND</text>
 <g id="legend_vss">
 <use xlink:href="#Label-VSS-std-1" x="0" y="0" />
-<use xlink:href="#d10" x="60.0" y="2.0" />
+<use xlink:href="#d11" x="60.0" y="2.0" />
 </g>
 <g id="Label-VDD-std-1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="red" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">VDD</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d11">3.3V-5V</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d12">3.3V-5V</text>
 <g id="legend_vdd">
 <use xlink:href="#Label-VDD-std-1" x="0" y="0" />
-<use xlink:href="#d11" x="60.0" y="2.0" />
+<use xlink:href="#d12" x="60.0" y="2.0" />
 </g>
 <g id="Label-FUNC-std-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="white" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">FUNC</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d12">Default Function</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d13">Default Function</text>
 <g id="legend_normal">
 <use xlink:href="#Label-FUNC-std-1" x="0" y="0" />
-<use xlink:href="#d12" x="90" y="2.0" />
+<use xlink:href="#d13" x="90" y="2.0" />
 </g>
 <g id="Label-FUNC-alt-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="black" fill="white" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">FUNC</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d13">Alternate Function</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d14">Alternate Function</text>
 <g id="legend_alt">
 <use xlink:href="#Label-FUNC-alt-1" x="0" y="0" />
-<use xlink:href="#d13" x="90" y="2.0" />
+<use xlink:href="#d14" x="90" y="2.0" />
 </g>
 <g id="legends">
 <use xlink:href="#legend_uart" x="357.14285714285717" y="0" />
 <use xlink:href="#legend_i2c" x="357.14285714285717" y="40" />
 <use xlink:href="#legend_spi" x="357.14285714285717" y="80" />
 <use xlink:href="#legend_adc" x="357.14285714285717" y="120" />
-<use xlink:href="#legend_sys" x="781.25" y="0.0" />
-<use xlink:href="#legend_tim1" x="781.25" y="40.0" />
-<use xlink:href="#legend_tim2" x="781.25" y="80.0" />
-<use xlink:href="#legend_opa" x="781.25" y="120.0" />
-<use xlink:href="#legend_pin" x="1250.0" y="0.0" />
-<use xlink:href="#legend_vss" x="1250.0" y="40.0" />
-<use xlink:href="#legend_vdd" x="1250.0" y="80.0" />
+<use xlink:href="#legend_sys" x="781.25" y="-13.333333333333321" />
+<use xlink:href="#legend_tim1" x="781.25" y="26.66666666666668" />
+<use xlink:href="#legend_tim2" x="781.25" y="66.66666666666669" />
+<use xlink:href="#legend_opa" x="781.25" y="106.66666666666669" />
+<use xlink:href="#legend_pin" x="1250.0" y="-26.666666666666643" />
+<use xlink:href="#legend_swd" x="1250.0" y="13.333333333333357" />
+<use xlink:href="#legend_vss" x="1250.0" y="53.33333333333336" />
+<use xlink:href="#legend_vdd" x="1250.0" y="93.33333333333336" />
 <use xlink:href="#legend_normal" x="1666.6666666666667" y="0" />
 <use xlink:href="#legend_alt" x="1666.6666666666667" y="40" />
 </g>
@@ -686,85 +775,9 @@
 </g>
 </defs>
 <rect x="-1250.0" y="-500.0" width="2500" height="1000" stroke="black" stroke-width="2" fill="white" />
-<g id="lines">
-<path d="M-42.426406871192846,-155.56349186104043 H-42.426406871192846 V-220 H-665.7537879754125" stroke="black" stroke-width="2" fill="none" />
-<path d="M-70.71067811865474,-127.27922061357853 H-70.71067811865474 V-180 H-694.0380592228744" stroke="black" stroke-width="2" fill="none" />
-<path d="M-98.99494936611664,-98.99494936611663 H-98.99494936611664 V-140 H-832.3223304703363" stroke="black" stroke-width="2" fill="none" />
-<path d="M-127.27922061357853,-70.71067811865474 H-127.27922061357853 V-100 H-210.60660171779818" stroke="black" stroke-width="2" fill="none" />
-<path d="M-155.56349186104043,-42.42640687119284 H-155.56349186104043 V-60 H-888.8908729652601" stroke="black" stroke-width="2" fill="none" />
-<path d="M-155.56349186104043,42.426406871192846 H-155.56349186104043 V62.426406871192846 H-238.8908729652601" stroke="black" stroke-width="2" fill="none" />
-<path d="M-127.27922061357853,70.71067811865474 H-127.27922061357853 V102.42640687119285 H-640.6066017177982" stroke="black" stroke-width="2" fill="none" />
-<path d="M-98.99494936611663,98.99494936611664 H-98.99494936611663 V142.42640687119285 H-832.3223304703363" stroke="black" stroke-width="2" fill="none" />
-<path d="M-70.71067811865474,127.27922061357853 H-70.71067811865474 V182.42640687119285 H-804.0380592228744" stroke="black" stroke-width="2" fill="none" />
-<path d="M-42.42640687119284,155.56349186104043 H-42.42640687119284 V222.42640687119285 H-665.7537879754125" stroke="black" stroke-width="2" fill="none" />
-<path d="M42.426406871192846,155.56349186104043 H42.426406871192846 V220 H555.7537879754125" stroke="black" stroke-width="2" fill="none" />
-<path d="M70.71067811865474,127.27922061357853 H70.71067811865474 V180 H694.0380592228744" stroke="black" stroke-width="2" fill="none" />
-<path d="M98.99494936611664,98.99494936611663 H98.99494936611664 V140 H722.3223304703363" stroke="black" stroke-width="2" fill="none" />
-<path d="M127.27922061357853,70.71067811865474 H127.27922061357853 V100 H860.6066017177982" stroke="black" stroke-width="2" fill="none" />
-<path d="M155.56349186104043,42.42640687119284 H155.56349186104043 V60 H778.8908729652601" stroke="black" stroke-width="2" fill="none" />
-<path d="M155.56349186104043,-42.426406871192846 H155.56349186104043 V-62.426406871192846 H778.8908729652601" stroke="black" stroke-width="2" fill="none" />
-<path d="M127.27922061357853,-70.71067811865474 H127.27922061357853 V-102.42640687119285 H640.6066017177982" stroke="black" stroke-width="2" fill="none" />
-<path d="M98.99494936611663,-98.99494936611664 H98.99494936611663 V-142.42640687119285 H722.3223304703363" stroke="black" stroke-width="2" fill="none" />
-<path d="M70.71067811865474,-127.27922061357853 H70.71067811865474 V-182.42640687119285 H584.0380592228744" stroke="black" stroke-width="2" fill="none" />
-<path d="M42.42640687119284,-155.56349186104043 H42.42640687119284 V-222.42640687119285 H555.7537879754125" stroke="black" stroke-width="2" fill="none" />
-</g>
-<g id="CH32V003F4U6">
-<g id="package" transform="rotate(45, 0, 0)">
-<rect x="-140.0" y="-140.0" width="280.0" height="280.0" stroke="black" stroke-width="2" fill="grey" />
-<path d="M-48.0,-80.0 H80.0 V80.0 H-80.0 V-48.0 Z" stroke="black" stroke-width="2" fill="lightgray" />
-<circle cx="-76.66666666666667" cy="-76.66666666666667" r="6.666666666666667" stroke="black" stroke-width="2" fill="lightgrey" />
-<use xlink:href="#pins" x="0" y="0" transform="rotate(0, 0, 0)" />
-<use xlink:href="#pins" x="0" y="0" transform="rotate(90, 0, 0)" />
-<use xlink:href="#pins" x="0" y="0" transform="rotate(180, 0, 0)" />
-<use xlink:href="#pins" x="0" y="0" transform="rotate(270, 0, 0)" />
-</g>
-<text x="0" y="-35" font-size="30" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle"><tspan x="0" dy="0em">QFN-20</tspan><tspan x="0" dy="1em">TOP VIEW</tspan></text>
-<text x="0" y="20" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic"><tspan x="0" dy="0em">Connect thermal pad</tspan><tspan x="0" dy="1em">pad to ground</tspan></text>
-<g id="pin-numbers">
-<text x="-31.819805153394636" y="-143.95689014324222" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">1</text>
-<text x="-60.104076400856535" y="-115.67261889578032" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">2</text>
-<text x="-88.38834764831843" y="-87.38834764831842" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">3</text>
-<text x="-116.67261889578033" y="-59.10407640085653" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">4</text>
-<text x="-144.95689014324222" y="-30.819805153394626" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">5</text>
-<text x="-144.95689014324222" y="32.81980515339464" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">6</text>
-<text x="-116.67261889578032" y="61.104076400856535" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">7</text>
-<text x="-88.38834764831842" y="89.38834764831843" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">8</text>
-<text x="-60.10407640085653" y="117.67261889578033" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">9</text>
-<text x="-31.819805153394626" y="145.95689014324222" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">10</text>
-<text x="31.819805153394636" y="145.95689014324222" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">11</text>
-<text x="60.104076400856535" y="117.67261889578032" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">12</text>
-<text x="88.38834764831843" y="89.38834764831842" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">13</text>
-<text x="116.67261889578033" y="61.10407640085653" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">14</text>
-<text x="144.95689014324222" y="32.819805153394626" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">15</text>
-<text x="144.95689014324222" y="-30.819805153394636" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">16</text>
-<text x="116.67261889578032" y="-59.104076400856535" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">17</text>
-<text x="88.38834764831842" y="-87.38834764831843" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">18</text>
-<text x="60.10407640085653" y="-115.67261889578033" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">19</text>
-<text x="31.819805153394626" y="-143.95689014324222" font-size="15" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="middle">20</text>
-</g>
-</g>
-<g id="labels">
-<use xlink:href="#PIN-PD7-0-left-1" x="-75.75378797541251" y="-220" />
-<use xlink:href="#PIN-PA1-0-left-1" x="-104.03805922287441" y="-180" />
-<use xlink:href="#PIN-PA2-0-left-1" x="-132.3223304703363" y="-140" />
-<use xlink:href="#PIN-VSS-0-left-1" x="-160.60660171779818" y="-100" />
-<use xlink:href="#PIN-PD0-0-left-1" x="-188.8908729652601" y="-60" />
-<use xlink:href="#PIN-VDD-0-left--1" x="-188.8908729652601" y="62.426406871192846" />
-<use xlink:href="#PIN-PC0-0-left--1" x="-160.60660171779818" y="102.42640687119285" />
-<use xlink:href="#PIN-PC1-0-left--1" x="-132.32233047033628" y="142.42640687119285" />
-<use xlink:href="#PIN-PC2-0-left--1" x="-104.03805922287441" y="182.42640687119285" />
-<use xlink:href="#PIN-PC3-0-left--1" x="-75.75378797541251" y="222.42640687119285" />
-<use xlink:href="#PIN-PC4-0-right-1" x="75.75378797541251" y="220" />
-<use xlink:href="#PIN-PC5-0-right-1" x="104.03805922287441" y="180" />
-<use xlink:href="#PIN-PC6-0-right-1" x="132.3223304703363" y="140" />
-<use xlink:href="#PIN-PC7-0-right-1" x="160.60660171779818" y="100" />
-<use xlink:href="#PIN-PD1-0-right-1" x="188.8908729652601" y="60" />
-<use xlink:href="#PIN-PD2-0-right--1" x="188.8908729652601" y="-62.426406871192846" />
-<use xlink:href="#PIN-PD3-0-right--1" x="160.60660171779818" y="-102.42640687119285" />
-<use xlink:href="#PIN-PD4-0-right--1" x="132.32233047033628" y="-142.42640687119285" />
-<use xlink:href="#PIN-PD5-0-right--1" x="104.03805922287441" y="-182.42640687119285" />
-<use xlink:href="#PIN-PD6-0-right--1" x="75.75378797541251" y="-222.42640687119285" />
-</g>
+<use xlink:href="#lines" x="0" y="0" />
+<use xlink:href="#CH32V003F4U6" x="0" y="0" />
+<use xlink:href="#labels" x="0" y="0" />
 <use xlink:href="#legends" x="-1250.0" y="340.0" />
 <use xlink:href="#title" x="0" y="-440.0" />
 </svg>

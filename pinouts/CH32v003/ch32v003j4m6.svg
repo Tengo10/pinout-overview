@@ -10,7 +10,46 @@
 }
 /*]]>*/</style>
 <defs>
+<g id="lines">
+<path d="M-140.0,-120.0 H-180.0 V-140.0 H-750.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M-140.0,-120.0 H-180.0 V-100.0 H-880.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M-140.0,-40.0 H-140.0 V-40.0 H-250.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M-140.0,40.0 H-140.0 V40.0 H-1010.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M-140.0,120.0 H-140.0 V120.0 H-250.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M140.0,120.0 H140.0 V120.0 H1010.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M140.0,40.0 H140.0 V40.0 H1010.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M140.0,-40.0 H140.0 V-40.0 H750.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M140.0,-120.0 H180.0 V-160.0 H880.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M140.0,-120.0 H180.0 V-120.0 H750.0" stroke="black" stroke-width="2" fill="none" />
+<path d="M140.0,-120.0 H180.0 V-80.0 H880.0" stroke="black" stroke-width="2" fill="none" />
+</g>
 <path d="M-20.0,-10.0 H20.0 V10.0 H-20.0 V-10.0 M-6.666666666666667,-10.0 V10.0 M6.666666666666667,-10.0 V10.0 Z" stroke="black" stroke-width="2" fill="lightgray" id="d0" />
+<g id="CH32v003J4M6">
+<g id="pins">
+<use xlink:href="#d0" x="-120.0" y="-120.0" />
+<use xlink:href="#d0" x="120.0" y="-120.0" />
+<use xlink:href="#d0" x="-120.0" y="-40.0" />
+<use xlink:href="#d0" x="120.0" y="-40.0" />
+<use xlink:href="#d0" x="-120.0" y="40.0" />
+<use xlink:href="#d0" x="120.0" y="40.0" />
+<use xlink:href="#d0" x="-120.0" y="120.0" />
+<use xlink:href="#d0" x="120.0" y="120.0" />
+</g>
+<rect x="-100.0" y="-200.0" width="200" height="400.0" stroke="black" stroke-width="2" fill="grey" />
+<circle cx="-60.0" cy="-160.0" r="10.0" stroke="black" stroke-width="2" fill="lightgrey" />
+<text x="0" y="-15" font-size="30" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black">SOP-8</text>
+<text x="0" y="50" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black"></text>
+<g id="pin-numbers">
+<text x="-95.0" y="-118.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">1</text>
+<text x="95.0" y="-118.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">8</text>
+<text x="-95.0" y="-38.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">2</text>
+<text x="95.0" y="-38.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">7</text>
+<text x="-95.0" y="42.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">3</text>
+<text x="95.0" y="42.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">6</text>
+<text x="-95.0" y="122.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">4</text>
+<text x="95.0" y="122.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">5</text>
+</g>
+</g>
 <g id="Label-PD6-std-1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PD6</text>
@@ -225,7 +264,7 @@
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">T1CH3N</text>
 </g>
 <g id="Label-SWIO-std-1">
-<rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CCAA00" fill="#FFE97C" transform=" skewX(-15.0)" />
+<rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SWIO</text>
 </g>
 <g id="Label-SCL-alt-1">
@@ -302,6 +341,19 @@
 <use xlink:href="#Label-OPA-alt-1" x="410.0" y="0" />
 <use xlink:href="#Label-T1C4ETR-alt-1" x="540.0" y="0" />
 <use xlink:href="#Label-UCK-alt-1" x="670.0" y="0" />
+</g>
+<g id="labels">
+<use xlink:href="#PIN-0-0-left-1" x="-200" y="-140.0" />
+<use xlink:href="#PIN-0-1-left-1" x="-200" y="-100.0" />
+<use xlink:href="#PIN-VSS-0-left-1" x="-200" y="-40.0" />
+<use xlink:href="#PIN-PA2-0-left-1" x="-200" y="40.0" />
+<use xlink:href="#PIN-VDD-0-left-1" x="-200" y="120.0" />
+<use xlink:href="#PIN-PC1-0-right-1" x="200" y="120.0" />
+<use xlink:href="#PIN-PC2-0-right-1" x="200" y="40.0" />
+<use xlink:href="#PIN-PC4-0-right-1" x="200" y="-40.0" />
+<use xlink:href="#PIN-7-0-right-1" x="200" y="-160.0" />
+<use xlink:href="#PIN-7-1-right-1" x="200" y="-120.0" />
+<use xlink:href="#PIN-7-2-right-1" x="200" y="-80.0" />
 </g>
 <g id="Label-UART-std-1">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
@@ -384,54 +436,64 @@
 <use xlink:href="#Label-PIN-std-1" x="0" y="0" />
 <use xlink:href="#d9" x="60.0" y="2.0" />
 </g>
+<g id="Label-SWD-std-1">
+<rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="#FFE97C" transform=" skewX(-15.0)" />
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SWD</text>
+</g>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d10">SWIO</text>
+<g id="legend_swd">
+<use xlink:href="#Label-SWD-std-1" x="0" y="0" />
+<use xlink:href="#d10" x="60.0" y="2.0" />
+</g>
 <g id="Label-VSS-std-1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="black" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">VSS</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d10">GND</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d11">GND</text>
 <g id="legend_vss">
 <use xlink:href="#Label-VSS-std-1" x="0" y="0" />
-<use xlink:href="#d10" x="60.0" y="2.0" />
+<use xlink:href="#d11" x="60.0" y="2.0" />
 </g>
 <g id="Label-VDD-std-1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="red" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">VDD</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d11">3.3V-5V</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d12">3.3V-5V</text>
 <g id="legend_vdd">
 <use xlink:href="#Label-VDD-std-1" x="0" y="0" />
-<use xlink:href="#d11" x="60.0" y="2.0" />
+<use xlink:href="#d12" x="60.0" y="2.0" />
 </g>
 <g id="Label-FUNC-std-1">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="white" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">FUNC</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d12">Default Function</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d13">Default Function</text>
 <g id="legend_normal">
 <use xlink:href="#Label-FUNC-std-1" x="0" y="0" />
-<use xlink:href="#d12" x="90" y="2.0" />
+<use xlink:href="#d13" x="90" y="2.0" />
 </g>
 <g id="Label-FUNC-alt-1">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="black" fill="white" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">FUNC</text>
 </g>
-<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d13">Alternate Function</text>
+<text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d14">Alternate Function</text>
 <g id="legend_alt">
 <use xlink:href="#Label-FUNC-alt-1" x="0" y="0" />
-<use xlink:href="#d13" x="90" y="2.0" />
+<use xlink:href="#d14" x="90" y="2.0" />
 </g>
 <g id="legends">
 <use xlink:href="#legend_uart" x="357.14285714285717" y="0" />
 <use xlink:href="#legend_i2c" x="357.14285714285717" y="40" />
 <use xlink:href="#legend_spi" x="357.14285714285717" y="80" />
 <use xlink:href="#legend_adc" x="357.14285714285717" y="120" />
-<use xlink:href="#legend_sys" x="781.25" y="0.0" />
-<use xlink:href="#legend_tim1" x="781.25" y="40.0" />
-<use xlink:href="#legend_tim2" x="781.25" y="80.0" />
-<use xlink:href="#legend_opa" x="781.25" y="120.0" />
-<use xlink:href="#legend_pin" x="1250.0" y="0.0" />
-<use xlink:href="#legend_vss" x="1250.0" y="40.0" />
-<use xlink:href="#legend_vdd" x="1250.0" y="80.0" />
+<use xlink:href="#legend_sys" x="781.25" y="-13.333333333333321" />
+<use xlink:href="#legend_tim1" x="781.25" y="26.66666666666668" />
+<use xlink:href="#legend_tim2" x="781.25" y="66.66666666666669" />
+<use xlink:href="#legend_opa" x="781.25" y="106.66666666666669" />
+<use xlink:href="#legend_pin" x="1250.0" y="-26.666666666666643" />
+<use xlink:href="#legend_swd" x="1250.0" y="13.333333333333357" />
+<use xlink:href="#legend_vss" x="1250.0" y="53.33333333333336" />
+<use xlink:href="#legend_vdd" x="1250.0" y="93.33333333333336" />
 <use xlink:href="#legend_normal" x="1666.6666666666667" y="0" />
 <use xlink:href="#legend_alt" x="1666.6666666666667" y="40" />
 </g>
@@ -441,58 +503,9 @@
 </g>
 </defs>
 <rect x="-1250.0" y="-500.0" width="2500" height="1000" stroke="black" stroke-width="2" fill="white" />
-<g id="lines">
-<path d="M-140.0,-120.0 H-180.0 V-140.0 H-750.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M-140.0,-120.0 H-180.0 V-100.0 H-880.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M-140.0,-40.0 H-140.0 V-40.0 H-250.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M-140.0,40.0 H-140.0 V40.0 H-1010.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M-140.0,120.0 H-140.0 V120.0 H-250.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M140.0,120.0 H140.0 V120.0 H1010.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M140.0,40.0 H140.0 V40.0 H1010.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M140.0,-40.0 H140.0 V-40.0 H750.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M140.0,-120.0 H180.0 V-160.0 H880.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M140.0,-120.0 H180.0 V-120.0 H750.0" stroke="black" stroke-width="2" fill="none" />
-<path d="M140.0,-120.0 H180.0 V-80.0 H880.0" stroke="black" stroke-width="2" fill="none" />
-</g>
-<g id="CH32v003J4M6">
-<g id="pins">
-<use xlink:href="#d0" x="-120.0" y="-120.0" />
-<use xlink:href="#d0" x="120.0" y="-120.0" />
-<use xlink:href="#d0" x="-120.0" y="-40.0" />
-<use xlink:href="#d0" x="120.0" y="-40.0" />
-<use xlink:href="#d0" x="-120.0" y="40.0" />
-<use xlink:href="#d0" x="120.0" y="40.0" />
-<use xlink:href="#d0" x="-120.0" y="120.0" />
-<use xlink:href="#d0" x="120.0" y="120.0" />
-</g>
-<rect x="-100.0" y="-200.0" width="200" height="400.0" stroke="black" stroke-width="2" fill="grey" />
-<circle cx="-60.0" cy="-160.0" r="10.0" stroke="black" stroke-width="2" fill="lightgrey" />
-<text x="0" y="-15" font-size="30" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black">SOP-8</text>
-<text x="0" y="50" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black"></text>
-<g id="pin-numbers">
-<text x="-95.0" y="-118.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">1</text>
-<text x="95.0" y="-118.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">8</text>
-<text x="-95.0" y="-38.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">2</text>
-<text x="95.0" y="-38.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">7</text>
-<text x="-95.0" y="42.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">3</text>
-<text x="95.0" y="42.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">6</text>
-<text x="-95.0" y="122.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="start">4</text>
-<text x="95.0" y="122.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">5</text>
-</g>
-</g>
-<g id="labels">
-<use xlink:href="#PIN-0-0-left-1" x="-200" y="-140.0" />
-<use xlink:href="#PIN-0-1-left-1" x="-200" y="-100.0" />
-<use xlink:href="#PIN-VSS-0-left-1" x="-200" y="-40.0" />
-<use xlink:href="#PIN-PA2-0-left-1" x="-200" y="40.0" />
-<use xlink:href="#PIN-VDD-0-left-1" x="-200" y="120.0" />
-<use xlink:href="#PIN-PC1-0-right-1" x="200" y="120.0" />
-<use xlink:href="#PIN-PC2-0-right-1" x="200" y="40.0" />
-<use xlink:href="#PIN-PC4-0-right-1" x="200" y="-40.0" />
-<use xlink:href="#PIN-7-0-right-1" x="200" y="-160.0" />
-<use xlink:href="#PIN-7-1-right-1" x="200" y="-120.0" />
-<use xlink:href="#PIN-7-2-right-1" x="200" y="-80.0" />
-</g>
+<use xlink:href="#lines" x="0" y="0" />
+<use xlink:href="#CH32v003J4M6" x="0" y="0" />
+<use xlink:href="#labels" x="0" y="0" />
 <use xlink:href="#legends" x="-1250.0" y="340.0" />
 <use xlink:href="#title" x="0" y="-440.0" />
 </svg>
