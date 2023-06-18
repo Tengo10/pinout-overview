@@ -4,7 +4,7 @@ import drawsvg as dw
 import yaml
 from yamlinclude import YamlIncludeConstructor
 from pinoutOverview import shapes
-
+from pinoutOverview import footprint as fp
 SIN_45 = 0.7071067811865475
 
 class label_line:
@@ -473,16 +473,68 @@ class Package:
         self.canvas_width   = 2500 if 'canvas_width' not in self.data else self.data['canvas_width']
         self.canvas_height  = 1000 if 'canvas_height' not in self.data else self.data['canvas_height']
         
+        package_x_offset = 0 if 'package_x_offset' not in self.data else self.data['package_x_offset']
+        package_y_offset = 0 if 'package_y_offset' not in self.data else self.data['package_y_offset']
+
+        
+
+
         self.dwPinout = dw.Drawing(self.canvas_width, self.canvas_height, origin='center', displayInline=True)
         print(self.canvas_width, "  ", self.canvas_height)
         self.dwPinout.embed_google_font("Roboto Mono")
         self.dwPinout.append(dw.Rectangle(-self.canvas_width/2, -self.canvas_height/2, self.canvas_width, self.canvas_height,
                                           stroke="black", stroke_width=2, fill="white"))
-        self.dwPinout.append(dw_lineholder)
-        self.dwPinout.append(dw_footprint)
-        self.dwPinout.append(dw_labels)
+        self.dwPinout.append(dw.Use(dw_lineholder, package_x_offset, package_y_offset))
+        self.dwPinout.append(dw.Use(dw_footprint, package_x_offset, package_y_offset))
+        self.dwPinout.append(dw.Use(dw_labels, package_x_offset, package_y_offset))
         self.dwPinout.append(dw.Use(self._generate_legend(), -self.canvas_width/2, self.canvas_height/2-160))
         self.dwPinout.append(dw.Use(self._generate_title(), 0, -self.canvas_height/2+60))
+
+        if 'custom_image' in self.data:
+            print("Custom Image Found")
+            programmer = fp.Programmer()
+            board = programmer.draw()
+            self.dwPinout.append(dw.Use(board, self.data['custom_image']['x_offset'], self.data['custom_image']['y_offset']))
+            #for l in self.data['custom_image']['connections']:
+            #    print(l[1])
+            #    img_line_op = label_pos_index[l[1]]
+            #    print(img_line_op)
+            #    img_line = programmer.line(l[0], img_line_op.end_x, img_line_op.end_y, **line)
+            #    self.dwPinout.append(img_line)
+
+        if 'text_field' in self.data:
+            for field in self.data['text_field']:
+                self.dwPinout.append(dw.Text(field['text'], field['font_size'], field['x'], field['y'], **field['style']))
+
+
+        if 'line' in self.data:
+            for l in self.data['line']:
+                c_line = dw.Path(**l['style'])
+                for cmd in l['path']:
+                    if cmd[0] == 'M':
+                        c_line.M(cmd[1], cmd[2])
+                    elif cmd[0] == 'L':
+                        c_line.L(cmd[1], cmd[2])
+                    elif cmd[0] == 'H':
+                        c_line.H(cmd[1])
+                    elif cmd[0] == 'V':
+                        c_line.V(cmd[1])
+                    elif cmd[0] == 'Q':
+                        c_line.Q(cmd[1], cmd[2], cmd[3], cmd[4])
+                    elif cmd[0] == 'C':
+                        c_line.C(cmd[1], cmd[2], cmd[3], cmd[4], cmd[5], cmd[6])
+                    elif cmd[0] == 'Z':
+                        c_line.Z()
+                self.dwPinout.append(c_line)
+
+        if 'custom_label' in self.data:
+            for l in self.data['custom_label']:
+                ftype  = self.data['types'][l["type"]]
+                if "width" in ftype:
+                    label_width = ftype["width"]
+                c_label = self._generate_label(l['text'], ftype, label_width)
+                self.dwPinout.append(dw.Use(c_label, l['x'], l['y']))
+
 
     def _generate_legend(self):
         label_amount = len(self.data['types'])
@@ -513,9 +565,9 @@ class Package:
                             fill="black", font_weight='bold', font_family='Roboto Mono')
             legend_group.append(dw.Use(text, label_width/2 + 20, (label_height-10)/10))
             
-            if i < label_amount/3:
+            if i < label_amount/3-1:
                 legends.append(dw.Use(legend_group, column1, (i)*(label_height+label_spacing)))
-            elif i < label_amount/3*2:
+            elif i < label_amount/3*2-1:
                 legends.append(dw.Use(legend_group, column2, (i - label_amount/3)*(label_height+label_spacing)))
             else:
                 legends.append(dw.Use(legend_group, column3, (i - label_amount/3*2)*(label_height+label_spacing)))
