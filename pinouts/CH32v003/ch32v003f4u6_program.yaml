@@ -1,0 +1,89 @@
+pins: !include ./pins_how_to.yaml
+types: !include types.yaml
+
+pin: !include ../defaults/pin_qfn.yaml
+label: !include ../defaults/label_qfn.yaml
+package: !include ../defaults/package_qfn.yaml
+
+footprint: QFN-20
+name: Flashing the CH32V003
+subtitle: "Using the SWIO Interface"
+package_text:
+  text: "QFN-20\nTOP VIEW"
+  sub_text: "Connect thermal pad\npad to ground"
+
+
+package_x_offset: -750
+
+custom_image:
+  name: 
+  x_offset: 600
+  y_offset: -30
+
+text_field:
+  - text: "To PC \n Using USB"
+    x: 900
+    y: -40
+    font_size: 25
+    style:
+        font_family: "Roboto Mono"
+        text_anchor: start
+        alignment_baseline: middle
+  - text: "Programmer"
+    x: 600
+    y: -150
+    font_size: 30
+    style:
+        font_family: "Roboto Mono"
+        text_anchor: middle
+        alignment_baseline: middle
+  - text: "The SWIO Interface is bi-directional and \ncan be used for programming, printf \nand general communication between programmer and chip"
+    x: 0
+    y: 120
+    font_size: 20
+    style:
+        font_family: "Roboto Mono"
+        text_anchor: middle
+        alignment_baseline: middle
+
+line:
+  - style:
+        stroke: black
+        stroke_width: 3
+        fill: none
+    path:
+        - [M, 280, -55]
+        - [H, -100]
+        - [V, 60]
+        - [H, -370]
+  - style:
+        stroke: black
+        stroke_width: 2
+        fill: none
+    path:
+        - [M, 280, -33]
+        - [H, 240]
+  - style:
+        stroke: black
+        stroke_width: 2
+        fill: none
+    path:
+        - [M, 280, -77]
+        - [H, 240]
+
+custom_label:
+  - type: vdd
+    x: 200
+    y: -33
+    text: VDD
+  - type: vss
+    x: 200
+    y: -77
+    text: VSS
+
+
+
+mapping: [ PD7, PA1, PA2, VSS, PD0,
+           VDD, PC0, PC1, PC2, PC3,
+           PC4, PC5, PC6, PC7, PD1,
+           PD2, PD3, PD4, PD5, PD6 ]
