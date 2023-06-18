@@ -1,4 +1,7 @@
 # CH32V003
+## CH32V003A4M6
+
+![ch32v003f4u6_program Pinout](./ch32v003f4u6_program.svg)
 
 ## CH32V003A4M6
 
