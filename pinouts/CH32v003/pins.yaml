@@ -5,7 +5,7 @@ PD7:
   - type: spacer
   - type: spacer
   - type: tim2
-    name: CH4
+    name: T1CH4
     alt: False
   - type: uart
     name: CK
@@ -24,7 +24,7 @@ PA1:
     name: OSCI
     alt: False
   - type: tim1
-    name: CH2
+    name: T1CH2
     alt: False
   - type: spacer
   - type: opa
@@ -41,7 +41,7 @@ PA2:
     name: OSCO
     alt: False
   - type: tim1
-    name: CH2N
+    name: T1CH2N
     alt: False
   - type: spacer
   - type: opa
@@ -65,7 +65,7 @@ PD0:
   - type: spacer
   - type: spacer
   - type: tim1
-    name: CH1N
+    name: T1CH1N
     alt: False
   - type: uart
     name: TXD
@@ -82,10 +82,10 @@ PC0:
     name: PC0
     alt: False
   - type: tim2
-    name: CH3
+    name: T2CH3
     alt: False
   - type: tim1
-    name: CH3
+    name: T1CH3
     alt: True
   - type: spi
     name: NSS
@@ -110,7 +110,7 @@ PC1:
     name: RX
     alt: True
   - type: tim2
-    name: CH1/4
+    name: T2CH1/4
     alt: True
   - type: tim2
     name: ETR
@@ -132,7 +132,7 @@ PC2:
     name: RTS
     alt: False
   - type: tim2
-    name: CH2
+    name: T2CH2
     alt: True
   - type: tim1
     name: ETR
@@ -143,11 +143,11 @@ PC3:
     alt: False
   - type: spacer
   - type: tim1
-    name: CH3
+    name: T1CH3
     alt: True
   - type: spacer
   - type: tim1
-    name: CH1N
+    name: T1CH1N
     alt: True
   - type: uart
     name: CTS
@@ -160,13 +160,13 @@ PC4:
     name: A2
     alt: False
   - type: tim1
-    name: CH4
+    name: T1CH4
     alt: False
   - type: sys
     name: MCO
     alt: False
   - type: tim1
-    name: CH1CH2N
+    name: T1CH1CH2N
     alt: True
 PC5:
   - type: pin
@@ -179,7 +179,7 @@ PC5:
     name: T1ETR
     alt: False
   - type: tim1
-    name: CH3
+    name: T1CH3
     alt: True
   - type: i2c
     name: SCL
@@ -192,7 +192,7 @@ PC6:
     name: PC6
     alt: False
   - type: spi
-    name: MISO
+    name: MOSI
     alt: False
   - type: tim1
     name: T1C1C3N
@@ -209,7 +209,7 @@ PC7:
     name: PC7
     alt: False
   - type: spi
-    name: MOSI
+    name: MISO
     alt: False
   - type: tim1
     name: T1CH2
