@@ -192,10 +192,10 @@ PC6:
     name: PC6
     alt: False
   - type: spi
-    name: MISO
+    name: MOSI
     alt: False
   - type: tim1
-    name: T1C1C3N
+    name: C1C3N
     alt: True
   - type: spacer
   - type: i2c
@@ -209,10 +209,10 @@ PC7:
     name: PC7
     alt: False
   - type: spi
-    name: MOSI
+    name: MISO
     alt: False
   - type: tim1
-    name: T1CH2
+    name: CH2
     alt: True
   - type: spacer
   - type: spacer  
@@ -220,7 +220,7 @@ PC7:
     name: URTS
     alt: True
   - type: tim2
-    name: T2CH2
+    name: CH2
     alt: True
 PD1:
   - type: pin
@@ -230,7 +230,7 @@ PD1:
     name: AETR2
     alt: False
   - type: tim1
-    name: T1CH3N
+    name: CH3N
     alt: False
   - type: swd
     name: SWIO
@@ -249,14 +249,14 @@ PD2:
     name: A3
     alt: False
   - type: tim1
-    name: T1CH1
+    name: CH1
     alt: False
   - type: tim2
-    name: T2CH3
+    name: CH3
     alt: True
   - type: spacer
   - type: tim1
-    name: T1CH2N
+    name: CH2N
     alt: True
 PD3:
   - type: pin
@@ -266,10 +266,10 @@ PD3:
     name: A4
     alt: False
   - type: tim2
-    name: T2CH2
+    name: CH2
     alt: False
   - type: tim1
-    name: T1CH4
+    name: CH4
     alt: True
   - type: adc
     name: AETR
@@ -282,13 +282,13 @@ PD4:
     name: A7
     alt: False
   - type: tim2
-    name: T2C1ETR
+    name: C1ETR
     alt: False
   - type: opa
     name: OPA
     alt: True
   - type: tim1
-    name: T1C4ETR
+    name: C4ETR
     alt: True
   - type: uart
     name: UCK
@@ -301,7 +301,7 @@ PD5:
     name: A5
     alt: False
   - type: tim2
-    name: T2CH4
+    name: CH4
     alt: True
   - type: uart
     name: UTX
@@ -317,7 +317,7 @@ PD6:
     name: A6
     alt: False
   - type: tim2
-    name: T2CH3
+    name: CH3
     alt: True
   - type: uart
     name: URX

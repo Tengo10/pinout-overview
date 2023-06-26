@@ -383,13 +383,13 @@
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="white">PC6</text>
 </g>
-<g id="Label-MISO-std-1">
+<g id="Label-MOSI-std-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CC5F" fill="#8CEEBA" transform=" skewX(-15.0)" />
-<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">MISO</text>
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">MOSI</text>
 </g>
-<g id="Label-T1C1C3N-alt-1">
+<g id="Label-C1C3N-alt-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T1C1C3N</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">C1C3N</text>
 </g>
 <g id="Label-SDA-alt-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#00B8CC" fill="#88EBF7" transform=" skewX(-15.0)" />
@@ -401,8 +401,8 @@
 </g>
 <g id="PIN-PC6-0-right-1">
 <use xlink:href="#Label-PC6-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-MISO-std-1" x="140.0" y="0" />
-<use xlink:href="#Label-T1C1C3N-alt-1" x="250.0" y="0" />
+<use xlink:href="#Label-MOSI-std-1" x="140.0" y="0" />
+<use xlink:href="#Label-C1C3N-alt-1" x="250.0" y="0" />
 <use xlink:href="#Label-SDA-alt-1" x="470.0" y="0" />
 <use xlink:href="#Label-UCTS-alt-1" x="580.0" y="0" />
 </g>
@@ -410,28 +410,28 @@
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="white">PC7</text>
 </g>
-<g id="Label-MOSI-std-1">
+<g id="Label-MISO-std-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CC5F" fill="#8CEEBA" transform=" skewX(-15.0)" />
-<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">MOSI</text>
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">MISO</text>
 </g>
-<g id="Label-T1CH2-alt-1">
+<g id="Label-CH2-alt-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T1CH2</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH2</text>
 </g>
 <g id="Label-URTS-alt-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">URTS</text>
 </g>
-<g id="Label-T2CH2-alt-1">
+<g id="Label-CH2-alt-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T2CH2</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH2</text>
 </g>
 <g id="PIN-PC7-0-right-1">
 <use xlink:href="#Label-PC7-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-MOSI-std-1" x="140.0" y="0" />
-<use xlink:href="#Label-T1CH2-alt-1" x="250.0" y="0" />
+<use xlink:href="#Label-MISO-std-1" x="140.0" y="0" />
+<use xlink:href="#Label-CH2-alt-1" x="250.0" y="0" />
 <use xlink:href="#Label-URTS-alt-1" x="580.0" y="0" />
-<use xlink:href="#Label-T2CH2-alt-1" x="690.0" y="0" />
+<use xlink:href="#Label-CH2-alt-1" x="690.0" y="0" />
 </g>
 <g id="Label-PD1-std-1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
@@ -441,9 +441,9 @@
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">AETR2</text>
 </g>
-<g id="Label-T1CH3N-std-1">
+<g id="Label-CH3N-std-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
-<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">T1CH3N</text>
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">CH3N</text>
 </g>
 <g id="Label-SWIO-std-1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="#FFE97C" transform=" skewX(-15.0)" />
@@ -460,7 +460,7 @@
 <g id="PIN-PD1-0-right-1">
 <use xlink:href="#Label-PD1-std-1" x="40.0" y="0" />
 <use xlink:href="#Label-AETR2-std-1" x="140.0" y="0" />
-<use xlink:href="#Label-T1CH3N-std-1" x="250.0" y="0" />
+<use xlink:href="#Label-CH3N-std-1" x="250.0" y="0" />
 <use xlink:href="#Label-SWIO-std-1" x="360.0" y="0" />
 <use xlink:href="#Label-SCL-alt-1" x="470.0" y="0" />
 <use xlink:href="#Label-URX-alt-1" x="580.0" y="0" />
@@ -473,24 +473,24 @@
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">A3</text>
 </g>
-<g id="Label-T1CH1-std--1">
+<g id="Label-CH1-std--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(15.0)" />
-<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">T1CH1</text>
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">CH1</text>
 </g>
-<g id="Label-T2CH3-alt--1">
+<g id="Label-CH3-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T2CH3</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH3</text>
 </g>
-<g id="Label-T1CH2N-alt--1">
+<g id="Label-CH2N-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T1CH2N</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH2N</text>
 </g>
 <g id="PIN-PD2-0-right--1">
 <use xlink:href="#Label-PD2-std--1" x="40.0" y="0" />
 <use xlink:href="#Label-A3-std--1" x="140.0" y="0" />
-<use xlink:href="#Label-T1CH1-std--1" x="250.0" y="0" />
-<use xlink:href="#Label-T2CH3-alt--1" x="360.0" y="0" />
-<use xlink:href="#Label-T1CH2N-alt--1" x="580.0" y="0" />
+<use xlink:href="#Label-CH1-std--1" x="250.0" y="0" />
+<use xlink:href="#Label-CH3-alt--1" x="360.0" y="0" />
+<use xlink:href="#Label-CH2N-alt--1" x="580.0" y="0" />
 </g>
 <g id="Label-PD3-std--1">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(15.0)" />
@@ -500,13 +500,13 @@
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">A4</text>
 </g>
-<g id="Label-T2CH2-std--1">
+<g id="Label-CH2-std--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(15.0)" />
-<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">T2CH2</text>
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">CH2</text>
 </g>
-<g id="Label-T1CH4-alt--1">
+<g id="Label-CH4-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T1CH4</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH4</text>
 </g>
 <g id="Label-AETR-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(15.0)" />
@@ -515,8 +515,8 @@
 <g id="PIN-PD3-0-right--1">
 <use xlink:href="#Label-PD3-std--1" x="40.0" y="0" />
 <use xlink:href="#Label-A4-std--1" x="140.0" y="0" />
-<use xlink:href="#Label-T2CH2-std--1" x="250.0" y="0" />
-<use xlink:href="#Label-T1CH4-alt--1" x="360.0" y="0" />
+<use xlink:href="#Label-CH2-std--1" x="250.0" y="0" />
+<use xlink:href="#Label-CH4-alt--1" x="360.0" y="0" />
 <use xlink:href="#Label-AETR-alt--1" x="470.0" y="0" />
 </g>
 <g id="Label-PD4-std--1">
@@ -527,17 +527,17 @@
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">A7</text>
 </g>
-<g id="Label-T2C1ETR-std--1">
+<g id="Label-C1ETR-std--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(15.0)" />
-<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">T2C1ETR</text>
+<text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">C1ETR</text>
 </g>
 <g id="Label-OPA-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#9600CC" fill="#E399FF" transform=" skewX(15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">OPA</text>
 </g>
-<g id="Label-T1C4ETR-alt--1">
+<g id="Label-C4ETR-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T1C4ETR</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">C4ETR</text>
 </g>
 <g id="Label-UCK-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(15.0)" />
@@ -546,9 +546,9 @@
 <g id="PIN-PD4-0-right--1">
 <use xlink:href="#Label-PD4-std--1" x="40.0" y="0" />
 <use xlink:href="#Label-A7-std--1" x="140.0" y="0" />
-<use xlink:href="#Label-T2C1ETR-std--1" x="250.0" y="0" />
+<use xlink:href="#Label-C1ETR-std--1" x="250.0" y="0" />
 <use xlink:href="#Label-OPA-alt--1" x="360.0" y="0" />
-<use xlink:href="#Label-T1C4ETR-alt--1" x="470.0" y="0" />
+<use xlink:href="#Label-C4ETR-alt--1" x="470.0" y="0" />
 <use xlink:href="#Label-UCK-alt--1" x="580.0" y="0" />
 </g>
 <g id="Label-PD5-std--1">
@@ -559,9 +559,9 @@
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">A5</text>
 </g>
-<g id="Label-T2CH4-alt--1">
+<g id="Label-CH4-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T2CH4</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH4</text>
 </g>
 <g id="Label-UTX-std--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(15.0)" />
@@ -574,7 +574,7 @@
 <g id="PIN-PD5-0-right--1">
 <use xlink:href="#Label-PD5-std--1" x="40.0" y="0" />
 <use xlink:href="#Label-A5-std--1" x="140.0" y="0" />
-<use xlink:href="#Label-T2CH4-alt--1" x="250.0" y="0" />
+<use xlink:href="#Label-CH4-alt--1" x="250.0" y="0" />
 <use xlink:href="#Label-UTX-std--1" x="360.0" y="0" />
 <use xlink:href="#Label-URX-alt--1" x="470.0" y="0" />
 </g>
@@ -586,9 +586,9 @@
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-weight="bold" fill="black">A6</text>
 </g>
-<g id="Label-T2CH3-alt--1">
+<g id="Label-CH3-alt--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="3 4" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(15.0)" />
-<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">T2CH3</text>
+<text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH3</text>
 </g>
 <g id="Label-URX-std--1">
 <rect x="-50.0" y="-15.0" width="100" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(15.0)" />
@@ -601,7 +601,7 @@
 <g id="PIN-PD6-0-right--1">
 <use xlink:href="#Label-PD6-std--1" x="40.0" y="0" />
 <use xlink:href="#Label-A6-std--1" x="140.0" y="0" />
-<use xlink:href="#Label-T2CH3-alt--1" x="250.0" y="0" />
+<use xlink:href="#Label-CH3-alt--1" x="250.0" y="0" />
 <use xlink:href="#Label-URX-std--1" x="360.0" y="0" />
 <use xlink:href="#Label-UTX-alt--1" x="470.0" y="0" />
 </g>
