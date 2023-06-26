@@ -195,7 +195,7 @@ PC6:
     name: MOSI
     alt: False
   - type: tim1
-    name: CH1CH3N
+    name: C1C3N
     alt: True
   - type: spacer
   - type: i2c
@@ -282,13 +282,13 @@ PD4:
     name: A7
     alt: False
   - type: tim2
-    name: CH1ETR
+    name: C1ETR
     alt: False
   - type: opa
     name: OPA
     alt: True
   - type: tim1
-    name: CH4ETR
+    name: C4ETR
     alt: True
   - type: uart
     name: UCK
