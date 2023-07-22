@@ -2,6 +2,8 @@ import os
 import sys
 import drawsvg as dw
 import yaml
+import random
+
 from yamlinclude import YamlIncludeConstructor
 from pinoutOverview import shapes
 from pinoutOverview import footprint as fp
@@ -376,8 +378,8 @@ class Package:
 
         type_box = ftype["box_style"] if "box_style" in ftype else {}
         type_text = ftype["text_style"] if "text_style" in ftype else {}
-
-        dw_label = dw.Group(id=f"Label-{name}-{'alt' if alt else 'std'}-{direction}")
+        label_id = random.randint(0, 999999)
+        dw_label = dw.Group(id=f"Label-{name}-{'alt' if alt else 'std'}-{direction}-{label_id}")
         skew = -label_height/2*direction
 
         box_opts = self.data['label']['box_style' if not alt else 'alt_box_style']
