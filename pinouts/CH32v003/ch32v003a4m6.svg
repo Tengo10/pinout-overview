@@ -71,422 +71,422 @@
 <text x="95.0" y="142.0" font-size="20" font-family="Roboto Mono" dominant-baseline="middle" fill="black" text-anchor="end">9</text>
 </g>
 </g>
-<g id="Label-PC1-std-1">
+<g id="Label-PC1-std-1-363206">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PC1</text>
 </g>
-<g id="Label-SDA-std-1">
+<g id="Label-SDA-std-1-14818">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00B8CC" fill="#88EBF7" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SDA</text>
 </g>
-<g id="Label-BKIN-alt-1">
+<g id="Label-BKIN-alt-1-981637">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">BKIN</text>
 </g>
-<g id="Label-NSS-std-1">
+<g id="Label-NSS-std-1-463465">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CC5F" fill="#8CEEBA" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">NSS</text>
 </g>
-<g id="Label-RX-alt-1">
+<g id="Label-RX-alt-1-392519">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">RX</text>
 </g>
-<g id="Label-CH1/4-alt-1">
+<g id="Label-CH1/4-alt-1-981779">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH1/4</text>
 </g>
-<g id="Label-ETR-alt-1">
+<g id="Label-ETR-alt-1-394004">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">ETR</text>
 </g>
 <g id="PIN-PC1-0-left-1">
-<use xlink:href="#Label-PC1-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-SDA-std-1" x="-150.0" y="0" />
-<use xlink:href="#Label-BKIN-alt-1" x="-280.0" y="0" />
-<use xlink:href="#Label-NSS-std-1" x="-410.0" y="0" />
-<use xlink:href="#Label-RX-alt-1" x="-540.0" y="0" />
-<use xlink:href="#Label-CH1/4-alt-1" x="-670.0" y="0" />
-<use xlink:href="#Label-ETR-alt-1" x="-800.0" y="0" />
+<use xlink:href="#Label-PC1-std-1-363206" x="-40.0" y="0" />
+<use xlink:href="#Label-SDA-std-1-14818" x="-150.0" y="0" />
+<use xlink:href="#Label-BKIN-alt-1-981637" x="-280.0" y="0" />
+<use xlink:href="#Label-NSS-std-1-463465" x="-410.0" y="0" />
+<use xlink:href="#Label-RX-alt-1-392519" x="-540.0" y="0" />
+<use xlink:href="#Label-CH1/4-alt-1-981779" x="-670.0" y="0" />
+<use xlink:href="#Label-ETR-alt-1-394004" x="-800.0" y="0" />
 </g>
-<g id="Label-PC2-std-1">
+<g id="Label-PC2-std-1-353564">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PC2</text>
 </g>
-<g id="Label-SCL-std-1">
+<g id="Label-SCL-std-1-811790">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00B8CC" fill="#88EBF7" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SCL</text>
 </g>
-<g id="Label-BKIN-std-1">
+<g id="Label-BKIN-std-1-659869">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">BKIN</text>
 </g>
-<g id="Label-AETR-alt-1">
+<g id="Label-AETR-alt-1-466755">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">AETR</text>
 </g>
-<g id="Label-RTS-std-1">
+<g id="Label-RTS-std-1-295383">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">RTS</text>
 </g>
-<g id="Label-CH2-alt-1">
+<g id="Label-CH2-alt-1-844602">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH2</text>
 </g>
-<g id="Label-ETR-alt-1">
+<g id="Label-ETR-alt-1-459373">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">ETR</text>
 </g>
 <g id="PIN-PC2-0-left-1">
-<use xlink:href="#Label-PC2-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-SCL-std-1" x="-150.0" y="0" />
-<use xlink:href="#Label-BKIN-std-1" x="-280.0" y="0" />
-<use xlink:href="#Label-AETR-alt-1" x="-410.0" y="0" />
-<use xlink:href="#Label-RTS-std-1" x="-540.0" y="0" />
-<use xlink:href="#Label-CH2-alt-1" x="-670.0" y="0" />
-<use xlink:href="#Label-ETR-alt-1" x="-800.0" y="0" />
+<use xlink:href="#Label-PC2-std-1-353564" x="-40.0" y="0" />
+<use xlink:href="#Label-SCL-std-1-811790" x="-150.0" y="0" />
+<use xlink:href="#Label-BKIN-std-1-659869" x="-280.0" y="0" />
+<use xlink:href="#Label-AETR-alt-1-466755" x="-410.0" y="0" />
+<use xlink:href="#Label-RTS-std-1-295383" x="-540.0" y="0" />
+<use xlink:href="#Label-CH2-alt-1-844602" x="-670.0" y="0" />
+<use xlink:href="#Label-ETR-alt-1-459373" x="-800.0" y="0" />
 </g>
-<g id="Label-PC3-std-1">
+<g id="Label-PC3-std-1-78302">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PC3</text>
 </g>
-<g id="Label-CH3-alt-1">
+<g id="Label-CH3-alt-1-295321">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH3</text>
 </g>
-<g id="Label-CH1N-alt-1">
+<g id="Label-CH1N-alt-1-213736">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH1N</text>
 </g>
-<g id="Label-CTS-alt-1">
+<g id="Label-CTS-alt-1-784981">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CTS</text>
 </g>
 <g id="PIN-PC3-0-left-1">
-<use xlink:href="#Label-PC3-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-CH3-alt-1" x="-280.0" y="0" />
-<use xlink:href="#Label-CH1N-alt-1" x="-540.0" y="0" />
-<use xlink:href="#Label-CTS-alt-1" x="-670.0" y="0" />
+<use xlink:href="#Label-PC3-std-1-78302" x="-40.0" y="0" />
+<use xlink:href="#Label-CH3-alt-1-295321" x="-280.0" y="0" />
+<use xlink:href="#Label-CH1N-alt-1-213736" x="-540.0" y="0" />
+<use xlink:href="#Label-CTS-alt-1-784981" x="-670.0" y="0" />
 </g>
-<g id="Label-PC4-std-1">
+<g id="Label-PC4-std-1-903645">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PC4</text>
 </g>
-<g id="Label-A2-std-1">
+<g id="Label-A2-std-1-139577">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">A2</text>
 </g>
-<g id="Label-CH4-std-1">
+<g id="Label-CH4-std-1-279326">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">CH4</text>
 </g>
-<g id="Label-MCO-std-1">
+<g id="Label-MCO-std-1-592412">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CCAA00" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">MCO</text>
 </g>
-<g id="Label-CH1CH2N-alt-1">
+<g id="Label-CH1CH2N-alt-1-868841">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH1CH2N</text>
 </g>
 <g id="PIN-PC4-0-left-1">
-<use xlink:href="#Label-PC4-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-A2-std-1" x="-150.0" y="0" />
-<use xlink:href="#Label-CH4-std-1" x="-280.0" y="0" />
-<use xlink:href="#Label-MCO-std-1" x="-410.0" y="0" />
-<use xlink:href="#Label-CH1CH2N-alt-1" x="-540.0" y="0" />
+<use xlink:href="#Label-PC4-std-1-903645" x="-40.0" y="0" />
+<use xlink:href="#Label-A2-std-1-139577" x="-150.0" y="0" />
+<use xlink:href="#Label-CH4-std-1-279326" x="-280.0" y="0" />
+<use xlink:href="#Label-MCO-std-1-592412" x="-410.0" y="0" />
+<use xlink:href="#Label-CH1CH2N-alt-1-868841" x="-540.0" y="0" />
 </g>
-<g id="Label-PC6-std-1">
+<g id="Label-PC6-std-1-651632">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PC6</text>
 </g>
-<g id="Label-MOSI-std-1">
+<g id="Label-MOSI-std-1-248289">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CC5F" fill="#8CEEBA" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">MOSI</text>
 </g>
-<g id="Label-C1C3N-alt-1">
+<g id="Label-C1C3N-alt-1-127644">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">C1C3N</text>
 </g>
-<g id="Label-SDA-alt-1">
+<g id="Label-SDA-alt-1-691332">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00B8CC" fill="#88EBF7" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">SDA</text>
 </g>
-<g id="Label-UCTS-alt-1">
+<g id="Label-UCTS-alt-1-130252">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">UCTS</text>
 </g>
 <g id="PIN-PC6-0-left-1">
-<use xlink:href="#Label-PC6-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-MOSI-std-1" x="-150.0" y="0" />
-<use xlink:href="#Label-C1C3N-alt-1" x="-280.0" y="0" />
-<use xlink:href="#Label-SDA-alt-1" x="-540.0" y="0" />
-<use xlink:href="#Label-UCTS-alt-1" x="-670.0" y="0" />
+<use xlink:href="#Label-PC6-std-1-651632" x="-40.0" y="0" />
+<use xlink:href="#Label-MOSI-std-1-248289" x="-150.0" y="0" />
+<use xlink:href="#Label-C1C3N-alt-1-127644" x="-280.0" y="0" />
+<use xlink:href="#Label-SDA-alt-1-691332" x="-540.0" y="0" />
+<use xlink:href="#Label-UCTS-alt-1-130252" x="-670.0" y="0" />
 </g>
-<g id="Label-PC7-std-1">
+<g id="Label-PC7-std-1-431187">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PC7</text>
 </g>
-<g id="Label-MISO-std-1">
+<g id="Label-MISO-std-1-114864">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CC5F" fill="#8CEEBA" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">MISO</text>
 </g>
-<g id="Label-CH2-alt-1">
+<g id="Label-CH2-alt-1-216975">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH2</text>
 </g>
-<g id="Label-URTS-alt-1">
+<g id="Label-URTS-alt-1-356199">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">URTS</text>
 </g>
-<g id="Label-CH2-alt-1">
+<g id="Label-CH2-alt-1-109808">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH2</text>
 </g>
 <g id="PIN-PC7-0-left-1">
-<use xlink:href="#Label-PC7-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-MISO-std-1" x="-150.0" y="0" />
-<use xlink:href="#Label-CH2-alt-1" x="-280.0" y="0" />
-<use xlink:href="#Label-URTS-alt-1" x="-670.0" y="0" />
-<use xlink:href="#Label-CH2-alt-1" x="-800.0" y="0" />
+<use xlink:href="#Label-PC7-std-1-431187" x="-40.0" y="0" />
+<use xlink:href="#Label-MISO-std-1-114864" x="-150.0" y="0" />
+<use xlink:href="#Label-CH2-alt-1-216975" x="-280.0" y="0" />
+<use xlink:href="#Label-URTS-alt-1-356199" x="-670.0" y="0" />
+<use xlink:href="#Label-CH2-alt-1-109808" x="-800.0" y="0" />
 </g>
-<g id="Label-PD1-std-1">
+<g id="Label-PD1-std-1-490121">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PD1</text>
 </g>
-<g id="Label-AETR2-std-1">
+<g id="Label-AETR2-std-1-139097">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">AETR2</text>
 </g>
-<g id="Label-CH3N-std-1">
+<g id="Label-CH3N-std-1-628233">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">CH3N</text>
 </g>
-<g id="Label-SWIO-std-1">
+<g id="Label-SWIO-std-1-666479">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SWIO</text>
 </g>
-<g id="Label-SCL-alt-1">
+<g id="Label-SCL-alt-1-638459">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00B8CC" fill="#88EBF7" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">SCL</text>
 </g>
-<g id="Label-URX-alt-1">
+<g id="Label-URX-alt-1-661757">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">URX</text>
 </g>
 <g id="PIN-PD1-0-left-1">
-<use xlink:href="#Label-PD1-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-AETR2-std-1" x="-150.0" y="0" />
-<use xlink:href="#Label-CH3N-std-1" x="-280.0" y="0" />
-<use xlink:href="#Label-SWIO-std-1" x="-410.0" y="0" />
-<use xlink:href="#Label-SCL-alt-1" x="-540.0" y="0" />
-<use xlink:href="#Label-URX-alt-1" x="-670.0" y="0" />
+<use xlink:href="#Label-PD1-std-1-490121" x="-40.0" y="0" />
+<use xlink:href="#Label-AETR2-std-1-139097" x="-150.0" y="0" />
+<use xlink:href="#Label-CH3N-std-1-628233" x="-280.0" y="0" />
+<use xlink:href="#Label-SWIO-std-1-666479" x="-410.0" y="0" />
+<use xlink:href="#Label-SCL-alt-1-638459" x="-540.0" y="0" />
+<use xlink:href="#Label-URX-alt-1-661757" x="-670.0" y="0" />
 </g>
-<g id="Label-PD4-std-1">
+<g id="Label-PD4-std-1-547508">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PD4</text>
 </g>
-<g id="Label-A7-std-1">
+<g id="Label-A7-std-1-339118">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">A7</text>
 </g>
-<g id="Label-C1ETR-std-1">
+<g id="Label-C1ETR-std-1-105311">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">C1ETR</text>
 </g>
-<g id="Label-OPA-alt-1">
+<g id="Label-OPA-alt-1-579822">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#9600CC" fill="#E399FF" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">OPA</text>
 </g>
-<g id="Label-C4ETR-alt-1">
+<g id="Label-C4ETR-alt-1-143416">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">C4ETR</text>
 </g>
-<g id="Label-UCK-alt-1">
+<g id="Label-UCK-alt-1-150895">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">UCK</text>
 </g>
 <g id="PIN-PD4-0-left-1">
-<use xlink:href="#Label-PD4-std-1" x="-40.0" y="0" />
-<use xlink:href="#Label-A7-std-1" x="-150.0" y="0" />
-<use xlink:href="#Label-C1ETR-std-1" x="-280.0" y="0" />
-<use xlink:href="#Label-OPA-alt-1" x="-410.0" y="0" />
-<use xlink:href="#Label-C4ETR-alt-1" x="-540.0" y="0" />
-<use xlink:href="#Label-UCK-alt-1" x="-670.0" y="0" />
+<use xlink:href="#Label-PD4-std-1-547508" x="-40.0" y="0" />
+<use xlink:href="#Label-A7-std-1-339118" x="-150.0" y="0" />
+<use xlink:href="#Label-C1ETR-std-1-105311" x="-280.0" y="0" />
+<use xlink:href="#Label-OPA-alt-1-579822" x="-410.0" y="0" />
+<use xlink:href="#Label-C4ETR-alt-1-143416" x="-540.0" y="0" />
+<use xlink:href="#Label-UCK-alt-1-150895" x="-670.0" y="0" />
 </g>
-<g id="Label-PD5-std-1">
+<g id="Label-PD5-std-1-724234">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PD5</text>
 </g>
-<g id="Label-A5-std-1">
+<g id="Label-A5-std-1-630893">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">A5</text>
 </g>
-<g id="Label-CH4-alt-1">
+<g id="Label-CH4-alt-1-276243">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH4</text>
 </g>
-<g id="Label-UTX-std-1">
+<g id="Label-UTX-std-1-815668">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">UTX</text>
 </g>
-<g id="Label-URX-alt-1">
+<g id="Label-URX-alt-1-65515">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">URX</text>
 </g>
 <g id="PIN-PD5-0-right-1">
-<use xlink:href="#Label-PD5-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-A5-std-1" x="150.0" y="0" />
-<use xlink:href="#Label-CH4-alt-1" x="280.0" y="0" />
-<use xlink:href="#Label-UTX-std-1" x="410.0" y="0" />
-<use xlink:href="#Label-URX-alt-1" x="540.0" y="0" />
+<use xlink:href="#Label-PD5-std-1-724234" x="40.0" y="0" />
+<use xlink:href="#Label-A5-std-1-630893" x="150.0" y="0" />
+<use xlink:href="#Label-CH4-alt-1-276243" x="280.0" y="0" />
+<use xlink:href="#Label-UTX-std-1-815668" x="410.0" y="0" />
+<use xlink:href="#Label-URX-alt-1-65515" x="540.0" y="0" />
 </g>
-<g id="Label-PD6-std-1">
+<g id="Label-PD6-std-1-720460">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PD6</text>
 </g>
-<g id="Label-A6-std-1">
+<g id="Label-A6-std-1-866488">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">A6</text>
 </g>
-<g id="Label-CH3-alt-1">
+<g id="Label-CH3-alt-1-559479">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CH3</text>
 </g>
-<g id="Label-URX-std-1">
+<g id="Label-URX-std-1-649021">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">URX</text>
 </g>
-<g id="Label-UTX-alt-1">
+<g id="Label-UTX-alt-1-235607">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">UTX</text>
 </g>
 <g id="PIN-PD6-0-right-1">
-<use xlink:href="#Label-PD6-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-A6-std-1" x="150.0" y="0" />
-<use xlink:href="#Label-CH3-alt-1" x="280.0" y="0" />
-<use xlink:href="#Label-URX-std-1" x="410.0" y="0" />
-<use xlink:href="#Label-UTX-alt-1" x="540.0" y="0" />
+<use xlink:href="#Label-PD6-std-1-720460" x="40.0" y="0" />
+<use xlink:href="#Label-A6-std-1-866488" x="150.0" y="0" />
+<use xlink:href="#Label-CH3-alt-1-559479" x="280.0" y="0" />
+<use xlink:href="#Label-URX-std-1-649021" x="410.0" y="0" />
+<use xlink:href="#Label-UTX-alt-1-235607" x="540.0" y="0" />
 </g>
-<g id="Label-PD7-std-1">
+<g id="Label-PD7-std-1-954535">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PD7</text>
 </g>
-<g id="Label-CH4-std-1">
+<g id="Label-CH4-std-1-996035">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">CH4</text>
 </g>
-<g id="Label-CK-alt-1">
+<g id="Label-CK-alt-1-65104">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">CK</text>
 </g>
-<g id="Label-OPP1-std-1">
+<g id="Label-OPP1-std-1-713256">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#9600CC" fill="#E399FF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">OPP1</text>
 </g>
 <g id="PIN-PD7-0-right-1">
-<use xlink:href="#Label-PD7-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-CH4-std-1" x="410.0" y="0" />
-<use xlink:href="#Label-CK-alt-1" x="540.0" y="0" />
-<use xlink:href="#Label-OPP1-std-1" x="670.0" y="0" />
+<use xlink:href="#Label-PD7-std-1-954535" x="40.0" y="0" />
+<use xlink:href="#Label-CH4-std-1-996035" x="410.0" y="0" />
+<use xlink:href="#Label-CK-alt-1-65104" x="540.0" y="0" />
+<use xlink:href="#Label-OPP1-std-1-713256" x="670.0" y="0" />
 </g>
-<g id="Label-PA1-std-1">
+<g id="Label-PA1-std-1-901156">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PA1</text>
 </g>
-<g id="Label-A1-std-1">
+<g id="Label-A1-std-1-832376">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">A1</text>
 </g>
-<g id="Label-OSCI-std-1">
+<g id="Label-OSCI-std-1-545533">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CCAA00" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">OSCI</text>
 </g>
-<g id="Label-CH2-std-1">
+<g id="Label-CH2-std-1-950274">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">CH2</text>
 </g>
-<g id="Label-OPN0-std-1">
+<g id="Label-OPN0-std-1-737037">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#9600CC" fill="#E399FF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">OPN0</text>
 </g>
 <g id="PIN-PA1-0-right-1">
-<use xlink:href="#Label-PA1-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-A1-std-1" x="150.0" y="0" />
-<use xlink:href="#Label-OSCI-std-1" x="280.0" y="0" />
-<use xlink:href="#Label-CH2-std-1" x="410.0" y="0" />
-<use xlink:href="#Label-OPN0-std-1" x="670.0" y="0" />
+<use xlink:href="#Label-PA1-std-1-901156" x="40.0" y="0" />
+<use xlink:href="#Label-A1-std-1-832376" x="150.0" y="0" />
+<use xlink:href="#Label-OSCI-std-1-545533" x="280.0" y="0" />
+<use xlink:href="#Label-CH2-std-1-950274" x="410.0" y="0" />
+<use xlink:href="#Label-OPN0-std-1-737037" x="670.0" y="0" />
 </g>
-<g id="Label-PA2-std-1">
+<g id="Label-PA2-std-1-235459">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PA2</text>
 </g>
-<g id="Label-A0-std-1">
+<g id="Label-A0-std-1-754453">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">A0</text>
 </g>
-<g id="Label-OSCO-std-1">
+<g id="Label-OSCO-std-1-428164">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CCAA00" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">OSCO</text>
 </g>
-<g id="Label-CH2N-std-1">
+<g id="Label-CH2N-std-1-656681">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">CH2N</text>
 </g>
-<g id="Label-OPP0-std-1">
+<g id="Label-OPP0-std-1-969648">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#9600CC" fill="#E399FF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">OPP0</text>
 </g>
-<g id="Label-AETR2-std-1">
+<g id="Label-AETR2-std-1-162375">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">AETR2</text>
 </g>
 <g id="PIN-PA2-0-right-1">
-<use xlink:href="#Label-PA2-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-A0-std-1" x="150.0" y="0" />
-<use xlink:href="#Label-OSCO-std-1" x="280.0" y="0" />
-<use xlink:href="#Label-CH2N-std-1" x="410.0" y="0" />
-<use xlink:href="#Label-OPP0-std-1" x="670.0" y="0" />
-<use xlink:href="#Label-AETR2-std-1" x="800.0" y="0" />
+<use xlink:href="#Label-PA2-std-1-235459" x="40.0" y="0" />
+<use xlink:href="#Label-A0-std-1-754453" x="150.0" y="0" />
+<use xlink:href="#Label-OSCO-std-1-428164" x="280.0" y="0" />
+<use xlink:href="#Label-CH2N-std-1-656681" x="410.0" y="0" />
+<use xlink:href="#Label-OPP0-std-1-969648" x="670.0" y="0" />
+<use xlink:href="#Label-AETR2-std-1-162375" x="800.0" y="0" />
 </g>
-<g id="Label-VSS-std-1">
+<g id="Label-VSS-std-1-993739">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="black" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">VSS</text>
 </g>
 <g id="PIN-VSS-0-right-1">
-<use xlink:href="#Label-VSS-std-1" x="40.0" y="0" />
+<use xlink:href="#Label-VSS-std-1-993739" x="40.0" y="0" />
 </g>
-<g id="Label-VDD-std-1">
+<g id="Label-VDD-std-1-694116">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="red" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">VDD</text>
 </g>
 <g id="PIN-VDD-0-right-1">
-<use xlink:href="#Label-VDD-std-1" x="40.0" y="0" />
+<use xlink:href="#Label-VDD-std-1-694116" x="40.0" y="0" />
 </g>
-<g id="Label-PD0-std-1">
+<g id="Label-PD0-std-1-890062">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PD0</text>
 </g>
-<g id="Label-CH1N-std-1">
+<g id="Label-CH1N-std-1-55204">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">CH1N</text>
 </g>
-<g id="Label-TXD-alt-1">
+<g id="Label-TXD-alt-1-602474">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">TXD</text>
 </g>
-<g id="Label-OPN1-std-1">
+<g id="Label-OPN1-std-1-495027">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#9600CC" fill="#E399FF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">OPN1</text>
 </g>
-<g id="Label-SDA-alt-1">
+<g id="Label-SDA-alt-1-809575">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="#00B8CC" fill="#88EBF7" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">SDA</text>
 </g>
 <g id="PIN-PD0-0-right-1">
-<use xlink:href="#Label-PD0-std-1" x="40.0" y="0" />
-<use xlink:href="#Label-CH1N-std-1" x="410.0" y="0" />
-<use xlink:href="#Label-TXD-alt-1" x="540.0" y="0" />
-<use xlink:href="#Label-OPN1-std-1" x="670.0" y="0" />
-<use xlink:href="#Label-SDA-alt-1" x="800.0" y="0" />
+<use xlink:href="#Label-PD0-std-1-890062" x="40.0" y="0" />
+<use xlink:href="#Label-CH1N-std-1-55204" x="410.0" y="0" />
+<use xlink:href="#Label-TXD-alt-1-602474" x="540.0" y="0" />
+<use xlink:href="#Label-OPN1-std-1-495027" x="670.0" y="0" />
+<use xlink:href="#Label-SDA-alt-1-809575" x="800.0" y="0" />
 </g>
 <g id="labels">
 <use xlink:href="#PIN-PC1-0-left-1" x="-200" y="-140.0" />
@@ -506,130 +506,130 @@
 <use xlink:href="#PIN-VDD-0-right-1" x="200" y="-100.0" />
 <use xlink:href="#PIN-PD0-0-right-1" x="200" y="-140.0" />
 </g>
-<g id="Label-UART-std-1">
+<g id="Label-UART-std-1-411422">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CC0092" fill="#FFA3E5" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">UART</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d1">UART</text>
 <g id="legend_uart">
-<use xlink:href="#Label-UART-std-1" x="0" y="0" />
+<use xlink:href="#Label-UART-std-1-411422" x="0" y="0" />
 <use xlink:href="#d1" x="80.0" y="2.0" />
 </g>
-<g id="Label-I2C-std-1">
+<g id="Label-I2C-std-1-265476">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00B8CC" fill="#88EBF7" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">I2C</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d2">I2C</text>
 <g id="legend_i2c">
-<use xlink:href="#Label-I2C-std-1" x="0" y="0" />
+<use xlink:href="#Label-I2C-std-1-265476" x="0" y="0" />
 <use xlink:href="#d2" x="80.0" y="2.0" />
 </g>
-<g id="Label-SPI-std-1">
+<g id="Label-SPI-std-1-284187">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CC5F" fill="#8CEEBA" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SPI</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d3">SPI</text>
 <g id="legend_spi">
-<use xlink:href="#Label-SPI-std-1" x="0" y="0" />
+<use xlink:href="#Label-SPI-std-1-284187" x="0" y="0" />
 <use xlink:href="#d3" x="80.0" y="2.0" />
 </g>
-<g id="Label-ADC-std-1">
+<g id="Label-ADC-std-1-837317">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#0060CD" fill="#A2CEFF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">ADC</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d4">ADC</text>
 <g id="legend_adc">
-<use xlink:href="#Label-ADC-std-1" x="0" y="0" />
+<use xlink:href="#Label-ADC-std-1-837317" x="0" y="0" />
 <use xlink:href="#d4" x="80.0" y="2.0" />
 </g>
-<g id="Label-SYS-std-1">
+<g id="Label-SYS-std-1-535807">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#CCAA00" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SYS</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d5">SYSTEM</text>
 <g id="legend_sys">
-<use xlink:href="#Label-SYS-std-1" x="0" y="0" />
+<use xlink:href="#Label-SYS-std-1-535807" x="0" y="0" />
 <use xlink:href="#d5" x="80.0" y="2.0" />
 </g>
-<g id="Label-TIM1-std-1">
+<g id="Label-TIM1-std-1-652921">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#00CCA0" fill="#99FFE9" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">TIM1</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d6">TIMER 1</text>
 <g id="legend_tim1">
-<use xlink:href="#Label-TIM1-std-1" x="0" y="0" />
+<use xlink:href="#Label-TIM1-std-1-652921" x="0" y="0" />
 <use xlink:href="#d6" x="80.0" y="2.0" />
 </g>
-<g id="Label-TIM2-std-1">
+<g id="Label-TIM2-std-1-983521">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#69CC00" fill="#DAFFB3" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">TIM2</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d7">TIMER 2</text>
 <g id="legend_tim2">
-<use xlink:href="#Label-TIM2-std-1" x="0" y="0" />
+<use xlink:href="#Label-TIM2-std-1-983521" x="0" y="0" />
 <use xlink:href="#d7" x="80.0" y="2.0" />
 </g>
-<g id="Label-OPA-std-1">
+<g id="Label-OPA-std-1-959795">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="#9600CC" fill="#E399FF" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">OPA</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d8">OP AMP</text>
 <g id="legend_opa">
-<use xlink:href="#Label-OPA-std-1" x="0" y="0" />
+<use xlink:href="#Label-OPA-std-1-959795" x="0" y="0" />
 <use xlink:href="#d8" x="80.0" y="2.0" />
 </g>
-<g id="Label-PIN-std-1">
+<g id="Label-PIN-std-1-618602">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="grey" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">PIN</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d9">PIN NAME</text>
 <g id="legend_pin">
-<use xlink:href="#Label-PIN-std-1" x="0" y="0" />
+<use xlink:href="#Label-PIN-std-1-618602" x="0" y="0" />
 <use xlink:href="#d9" x="60.0" y="2.0" />
 </g>
-<g id="Label-SWD-std-1">
+<g id="Label-SWD-std-1-470343">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="#FFE97C" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">SWD</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d10">SWIO</text>
 <g id="legend_swd">
-<use xlink:href="#Label-SWD-std-1" x="0" y="0" />
+<use xlink:href="#Label-SWD-std-1-470343" x="0" y="0" />
 <use xlink:href="#d10" x="60.0" y="2.0" />
 </g>
-<g id="Label-VSS-std-1">
+<g id="Label-VSS-std-1-6984">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="black" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="white" font-weight="bold">VSS</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d11">GND</text>
 <g id="legend_vss">
-<use xlink:href="#Label-VSS-std-1" x="0" y="0" />
+<use xlink:href="#Label-VSS-std-1-6984" x="0" y="0" />
 <use xlink:href="#d11" x="60.0" y="2.0" />
 </g>
-<g id="Label-VDD-std-1">
+<g id="Label-VDD-std-1-235423">
 <rect x="-40.0" y="-15.0" width="80" height="30" stroke-width="2" rx="2" ry="2" stroke="red" fill="red" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">VDD</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d12">3.3V-5V</text>
 <g id="legend_vdd">
-<use xlink:href="#Label-VDD-std-1" x="0" y="0" />
+<use xlink:href="#Label-VDD-std-1-235423" x="0" y="0" />
 <use xlink:href="#d12" x="60.0" y="2.0" />
 </g>
-<g id="Label-FUNC-std-1">
+<g id="Label-FUNC-std-1-795889">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke="black" fill="white" transform=" skewX(-15.0)" />
 <text x="0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" fill="black" font-weight="bold">FUNC</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d13">Default Function</text>
 <g id="legend_normal">
-<use xlink:href="#Label-FUNC-std-1" x="0" y="0" />
+<use xlink:href="#Label-FUNC-std-1-795889" x="0" y="0" />
 <use xlink:href="#d13" x="90" y="2.0" />
 </g>
-<g id="Label-FUNC-alt-1">
+<g id="Label-FUNC-alt-1-264612">
 <rect x="-60.0" y="-15.0" width="120" height="30" stroke-width="2" rx="2" ry="2" stroke-dasharray="8 2" stroke="black" fill="white" transform=" skewX(-15.0)" />
 <text x="-3.0" y="3.0" font-size="24.0" font-family="Roboto Mono" dominant-baseline="middle" text-anchor="middle" font-style="italic" fill="black">FUNC</text>
 </g>
 <text x="0" y="0" font-size="30" text-anchor="start" dominant-baseline="middle" fill="black" font-weight="bold" font-family="Roboto Mono" id="d14">Alternate Function</text>
 <g id="legend_alt">
-<use xlink:href="#Label-FUNC-alt-1" x="0" y="0" />
+<use xlink:href="#Label-FUNC-alt-1-264612" x="0" y="0" />
 <use xlink:href="#d14" x="90" y="2.0" />
 </g>
 <g id="legends">
