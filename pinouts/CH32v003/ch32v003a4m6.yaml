@@ -14,6 +14,16 @@ footprint: SOP-16
 name: CH32V003A4M6
 subtitle: "SOP-16 3.9x10mm\n1.27mm Pitch"
 
+text_field:
+  - text: "NOTE:\nIf VDD is 3.3V: PC1, PC2 and PC6 are 5V tolerant"
+    x: 250
+    y: 450
+    font_size: 25
+    style:
+        font_family: "Roboto Mono"
+        text_anchor: start
+        alignment_baseline: middle
+
 mapping: [PC1, PC2, PC3, PC4,
           PC6, PC7, PD1, PD4,
           PD5, PD6, PD7, PA1,

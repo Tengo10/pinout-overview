@@ -14,6 +14,16 @@ footprint: SOP-20
 name: CH32V003F4P6
 subtitle: "TSSOP-20 4.4x6.5mm\n0.65mm Pitch"
 
+text_field:
+  - text: "NOTE:\nIf VDD is 3.3V: PC1, PC2, PC5 and PC6 are 5V tolerant"
+    x: 250
+    y: 450
+    font_size: 25
+    style:
+        font_family: "Roboto Mono"
+        text_anchor: start
+        alignment_baseline: middle
+
 mapping: [ PD4, PD5, PD6, PD7, PA1,
            PA2, VSS, PD0, VDD, PC0,
            PC1, PC2, PC3, PC4, PC5,
