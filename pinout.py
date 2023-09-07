@@ -549,6 +549,8 @@ class Package:
         column3 = self.canvas_width/2
         column4 = self.canvas_width/3*2
 
+        col1_index = 0
+        col2_index = 0
         legends = dw.Group(id="legends")
 
         for i, typ in enumerate(self.data['types']):
@@ -569,10 +571,12 @@ class Package:
             
             if i < label_amount/3-1:
                 legends.append(dw.Use(legend_group, column1, (i)*(label_height+label_spacing)))
+                col1_index += 1
             elif i < label_amount/3*2-1:
-                legends.append(dw.Use(legend_group, column2, (i - label_amount/3)*(label_height+label_spacing)))
+                legends.append(dw.Use(legend_group, column2, (i - col1_index)*(label_height+label_spacing)))
+                col2_index += 1
             else:
-                legends.append(dw.Use(legend_group, column3, (i - label_amount/3*2)*(label_height+label_spacing)))
+                legends.append(dw.Use(legend_group, column3, (i - col2_index - col1_index)*(label_height+label_spacing)))
 
         legend_normal = dw.Group(id="legend_normal")
         label_normal = self._generate_label("FUNC", {'box_style': {'fill': 'white', 'stroke': 'black'}}, self.data['label']['width'])
