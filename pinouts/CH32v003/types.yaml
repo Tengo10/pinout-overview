@@ -90,7 +90,7 @@ vss:
     fill: white
 vdd:
   width: 80
-  description: 3.3V-5V
+  description: 3.3V/5V
   box_style:
     stroke: red
     fill: red
