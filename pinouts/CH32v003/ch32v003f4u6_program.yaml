@@ -45,7 +45,14 @@ text_field:
         font_family: "Roboto Mono"
         text_anchor: middle
         alignment_baseline: middle
-
+  - text: "NOTE:\nIf VDD is 3.3V: PC1, PC2, PC5 and PC6 are 5V tolerant"
+    x: 250
+    y: 450
+    font_size: 25
+    style:
+        font_family: "Roboto Mono"
+        text_anchor: start
+        alignment_baseline: middle
 line:
   - style:
         stroke: black
@@ -55,7 +62,7 @@ line:
         - [M, 280, -55]
         - [H, -100]
         - [V, 60]
-        - [H, -370]
+        - [H, -350]
   - style:
         stroke: black
         stroke_width: 2
@@ -80,7 +87,6 @@ custom_label:
     x: 200
     y: -77
     text: VSS
-
 
 
 mapping: [ PD7, PA1, PA2, VSS, PD0,

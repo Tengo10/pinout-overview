@@ -44,14 +44,14 @@ PC0:
 PC1:
   - type: pin
     name: PC1
-    alt: False
+    alt: True
   - type: i2c
     name: SDA
     alt: False
 PC2:
   - type: pin
     name: PC2
-    alt: False
+    alt: True
   - type: i2c
     name: SCL
     alt: False
@@ -69,14 +69,14 @@ PC4:
 PC5:
   - type: pin
     name: PC5
-    alt: False
+    alt: True
   - type: spi
     name: SCK
     alt: False
 PC6:
   - type: pin
     name: PC6
-    alt: False
+    alt: True
   - type: spi
     name: MISO
     alt: False
