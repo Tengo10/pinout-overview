@@ -27,4 +27,4 @@ text_field:
 mapping: [PC1, PC2, PC3, PC4,
           PC6, PC7, PD1, PD4,
           PD5, PD6, PD7, PA1,
-          PA2, VSS, VDD, PD0]
+          PA2, VSS, VDD, PC0]
